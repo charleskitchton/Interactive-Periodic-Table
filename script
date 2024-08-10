@@ -1,0 +1,3701 @@
+const navSlide = () => {
+		const lines = document.querySelector('.lines');
+		const nav = document.querySelector('.navLink');
+		
+		lines.addEventListener('click',() => {
+			nav.classList.toggle('nav-active');
+			
+		//Line Animation
+		lines.classList.toggle('toggle');
+		});
+	   
+	}
+	
+	navSlide();
+
+
+// HYDROGEN:
+function hydrogen(){
+  document.getElementById("element").value = "Hydrogen";
+  document.getElementById("atomicNum").value = "1";
+  document.getElementById("atomicWeight").value = "1.0079";
+  document.getElementById("protons").value = "1";
+  document.getElementById("electrons").value = "1";
+  document.getElementById("neutrons").value = "0";
+  document.getElementById("year").value = "1766";
+  document.getElementById("electronsPerShell").value = "1";
+  document.getElementById("electronConfig").value = "1s1";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "Nonmetal, metallic at high pressures.";
+  document.getElementById("group").value = "1, hydrogen and alkali metals";
+  document.getElementById("period").value = "1";
+  document.getElementById("discoverer").value = "Henry Cavendish";
+  document.getElementById("radius").value = "53 pm";
+  document.getElementById("color").value = "colorless gas";
+  document.getElementById("density").value = "0.0000899 g/cm3";
+  document.getElementById("melt").value = "13.99 K, −259.16 °C, −434.49 °F";
+  document.getElementById("boil").value = "20.271 K, −252.879 °C, −423.182 °F";
+  document.getElementById("oxidation").value = "-1, 1";
+  document.getElementById("cost").value = "$12 per 100g";
+  //HYDROGEN Abundance:
+  document.getElementById("universe").value = "930000000";
+  document.getElementById("sun").value = "930000000";
+  document.getElementById("meteor").value = "170000000";
+  document.getElementById("earth").value = "31000000";
+  document.getElementById("ocean").value = "662000000";
+  document.getElementById("human").value = "620000000";
+}
+//HELIUM
+function helium(){
+  document.getElementById("element").value = "Helium";
+  document.getElementById("atomicNum").value = "2";
+  document.getElementById("atomicWeight").value = "4.002602";
+  document.getElementById("protons").value = "2";
+  document.getElementById("electrons").value = "2";
+  document.getElementById("neutrons").value = "2";
+  document.getElementById("year").value = "1868";
+  document.getElementById("electronsPerShell").value = "2";
+  document.getElementById("electronConfig").value = "1s2";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "nonmetal";
+  document.getElementById("group").value = "18, noble gas";
+  document.getElementById("period").value = "1";
+  document.getElementById("discoverer").value = "Pierre Janssen, Norman Lockyer";
+  document.getElementById("radius").value = "31 pm";
+  document.getElementById("color").value = "colorless gas";
+  document.getElementById("density").value = "0.0001787 g/cm3";
+  document.getElementById("melt").value = "0.95 K, −272.20 °C, −457.96 °F)";
+  document.getElementById("boil").value = "4.222 K, −268.928 °C, −452.070 °F";
+  document.getElementById("oxidation").value = "0";
+  document.getElementById("cost").value = "$5.2 per 100g";
+  //HYDROGEN Abundance:
+  document.getElementById("universe").value = "930000000";
+  document.getElementById("sun").value = "930000000";
+  document.getElementById("meteor").value = "170000000";
+  document.getElementById("earth").value = "31000000";
+  document.getElementById("ocean").value = "662000000";
+  document.getElementById("human").value = "620000000";
+}
+
+function lithium(){
+  document.getElementById("element").value = "Lithium";
+  document.getElementById("atomicNum").value = "3";
+  document.getElementById("atomicWeight").value = "6.941";
+  document.getElementById("protons").value = "3";
+  document.getElementById("electrons").value = "3";
+  document.getElementById("neutrons").value = "4";
+  document.getElementById("year").value = "1868";
+  document.getElementById("electronsPerShell").value = "2, 1";
+  document.getElementById("electronConfig").value = "1s2 2s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkali Metal";
+  document.getElementById("group").value = "1";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "A. Arfwedson";
+  document.getElementById("radius").value = "145 pm";
+  document.getElementById("color").value = "silvery-white";
+  document.getElementById("density").value = "0.535 g/cm3";
+  document.getElementById("melt").value = "453.65, 180.50 °C, 356.90 °F";
+  document.getElementById("boil").value = "1603 K, 1330 °C, 2426 °F";
+  document.getElementById("oxidation").value = "0,+1";
+  document.getElementById("cost").value = "$27 per 100g";
+  //Lithium Abundance:
+  document.getElementById("universe").value = "1";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "4600";
+  document.getElementById("earth").value = "50000";
+  document.getElementById("ocean").value = "160";
+  document.getElementById("human").value = "27";
+}
+
+function beryllium() {
+  document.getElementById("element").value = "Beryllium";
+  document.getElementById("atomicNum").value = "4";
+  document.getElementById("atomicWeight").value = "	9.01218";
+  document.getElementById("protons").value = "4";
+  document.getElementById("electrons").value = "4";
+  document.getElementById("neutrons").value = "5";
+  document.getElementById("year").value = "1798";
+  document.getElementById("electronsPerShell").value = "2, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkali Earth Metal";
+  document.getElementById("group").value = "2";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "N. Vauquelin";
+  document.getElementById("radius").value = "112 pm";
+  document.getElementById("color").value = "steel gray";
+  document.getElementById("density").value = "1.848  g/cm3";
+  document.getElementById("melt").value = "1560 K, 1287 °C, 2349 °F";
+  document.getElementById("boil").value = "2742 K, 2469 °C, 4476 °F";
+  document.getElementById("oxidation").value = "0,1,2";
+  document.getElementById("cost").value = "$748 per 100g";
+  //Lithium Abundance:
+  document.getElementById("universe").value = "0.1";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "70";
+  document.getElementById("earth").value = "4300";
+  document.getElementById("ocean").value = "0.00041";
+  document.getElementById("human").value = "0.3";
+}
+
+function boron() {
+  document.getElementById("element").value = "Boron";
+  document.getElementById("atomicNum").value = "5";
+  document.getElementById("atomicWeight").value = "10.81";
+  document.getElementById("protons").value = "5";
+  document.getElementById("electrons").value = "5";
+  document.getElementById("neutrons").value = "6";
+  document.getElementById("year").value = "1808";
+  document.getElementById("electronsPerShell").value = "2, 3";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "metalloid";
+  document.getElementById("group").value = "13";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "L. Gay-Lussac and L.J. Thénard";
+  document.getElementById("radius").value = "87 pm";
+  document.getElementById("color").value = "black(graphite), transparent(diamond)";
+  document.getElementById("density").value = "2.34 g/cm3";
+  document.getElementById("melt").value = "2349 K, 2076 °C, 3769 °F";
+  document.getElementById("boil").value = "4200 K, 3927 °C, 7101 °F";
+  document.getElementById("oxidation").value = "-5,-1,0,1,2,3";
+  document.getElementById("cost").value = "$1114 per 100g";
+  //Boron Abundance:
+  document.getElementById("universe").value = "0.1";
+  document.getElementById("sun").value = "0.2";
+  document.getElementById("meteor").value = "3000";
+  document.getElementById("earth").value = "17000";
+  document.getElementById("ocean").value = "2500";
+  document.getElementById("human").value = "410";
+}
+
+function carbon() {
+  document.getElementById("element").value = "Carbon";
+  document.getElementById("atomicNum").value = "6";
+  document.getElementById("atomicWeight").value = "12.0107";
+  document.getElementById("protons").value = "6";
+  document.getElementById("electrons").value = "6";
+  document.getElementById("neutrons").value = "6";
+  document.getElementById("year").value = "c3750 BCE";
+  document.getElementById("electronsPerShell").value = "2, 4";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "nonmetal";
+  document.getElementById("group").value = "14";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "Unknown, possibly discovered in Egypt";
+  document.getElementById("radius").value = "70 pm";
+  document.getElementById("color").value = "black(graphite), transparent(diamond";
+  document.getElementById("density").value = "2.267 g/cm3";
+  document.getElementById("melt").value = "3823 K, 3550 °C, 6422 °F";
+  document.getElementById("boil").value = "4300 K, 4027 °C, 7280 °F";
+  document.getElementById("oxidation").value = "-4,-3,-2,-1,0,1,2,3,4";
+  document.getElementById("cost").value = "$2.4 per 100g";
+  //Carbon Abundance:
+  document.getElementById("universe").value = "500,000";
+  document.getElementById("sun").value = "300,000";
+  document.getElementById("meteor").value = "18,000,000";
+  document.getElementById("earth").value = "3,100,000";
+  document.getElementById("ocean").value = "14,400";
+  document.getElementById("human").value = "120,000,000";
+}
+
+function nitrogen() {
+  document.getElementById("element").value = "Nitrogen";
+  document.getElementById("atomicNum").value = "7";
+  document.getElementById("atomicWeight").value = "14.0067";
+  document.getElementById("protons").value = "7";
+  document.getElementById("electrons").value = "7";
+  document.getElementById("neutrons").value = "7";
+  document.getElementById("year").value = "1772";
+  document.getElementById("electronsPerShell").value = "2, 5";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p3";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "Nonmetal";
+  document.getElementById("group").value = "15";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "Daniel Rutherford";
+  document.getElementById("radius").value = "65 pm";
+  document.getElementById("color").value = "colorless";
+  document.getElementById("density").value = "0.0012506 g/cm3";
+  document.getElementById("melt").value = "63.23 K, −209.86 °C, −345.75 °F";
+  document.getElementById("boil").value = "77.355 K, −195.795 °C, −320.431  °F";
+  document.getElementById("oxidation").value = "-3,-2,-1,0,1,2,3,4,5";
+  document.getElementById("cost").value = "$0.40 per 100g";
+  //Nitrogen Abundance:
+  document.getElementById("universe").value = "90,000";
+  document.getElementById("sun").value = "90,000";
+  document.getElementById("meteor").value = "1,400,000";
+  document.getElementById("earth").value = "29,000";
+  document.getElementById("ocean").value = "220";
+  document.getElementById("human").value = "12,000,000";
+}
+
+function oxygen() {
+  document.getElementById("element").value = "Oxygen";
+  document.getElementById("atomicNum").value = "8";
+  document.getElementById("atomicWeight").value = "15.9994";
+  document.getElementById("protons").value = "8";
+  document.getElementById("electrons").value = "8";
+  document.getElementById("neutrons").value = "8";
+  document.getElementById("year").value = "1774";
+  document.getElementById("electronsPerShell").value = "2, 6";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p4";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "nonmetal chalcogen";
+  document.getElementById("group").value = "16";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "Joseph Priestley";
+  document.getElementById("radius").value = "60 pm";
+  document.getElementById("color").value = "colorless";
+  document.getElementById("density").value = "0.001429 g/cm3";
+  document.getElementById("melt").value = "54.36 K, −218.79 °C, −361.82 °F";
+  document.getElementById("boil").value = "90.188 K, −182.962 °C, −297.332 °F";
+  document.getElementById("oxidation").value = "-2,-1,0,1,2";
+  document.getElementById("cost").value = "$0.30 per 100g";
+  //Oxygen Abundance:
+  document.getElementById("universe").value = "800,000";
+  document.getElementById("sun").value = "700,000";
+  document.getElementById("meteor").value = "480,000,000";
+  document.getElementById("earth").value = "600,000,000";
+  document.getElementById("ocean").value = "331,000,000";
+  document.getElementById("human").value = "240,000,000";
+}
+
+function fluorine() {
+  document.getElementById("element").value = "Fluorine";
+  document.getElementById("atomicNum").value = "9";
+  document.getElementById("atomicWeight").value = "18.9984032";
+  document.getElementById("protons").value = "9";
+  document.getElementById("electrons").value = "9";
+  document.getElementById("neutrons").value = "10";
+  document.getElementById("year").value = "1810";
+  document.getElementById("electronsPerShell").value = "2, 7";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p5";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "nonmetal halogen";
+  document.getElementById("group").value = "17";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "André-Marie Ampère";
+  document.getElementById("radius").value = "50 pm";
+  document.getElementById("color").value = "pale yellow";
+  document.getElementById("density").value = "	0.001696 g/cm3";
+  document.getElementById("melt").value = " 53.48 K −219.67 °C, −363.41 °F";
+  document.getElementById("boil").value = "85.03 K, −188.11 °C, −306.60 °F";
+  document.getElementById("oxidation").value = "0,1";
+  document.getElementById("cost").value = "$190 per 100g";
+  //Fluorine Abundance:
+  document.getElementById("universe").value = "30";
+  document.getElementById("sun").value = "30";
+  document.getElementById("meteor").value = "96,000";
+  document.getElementById("earth").value = "590,000";
+  document.getElementById("ocean").value = "420";
+  document.getElementById("human").value = "12,000";
+}
+
+function neon() {
+  document.getElementById("element").value = "Neon";
+  document.getElementById("atomicNum").value = "10";
+  document.getElementById("atomicWeight").value = "20.1797";
+  document.getElementById("protons").value = "10";
+  document.getElementById("electrons").value = "10";
+  document.getElementById("neutrons").value = "10";
+  document.getElementById("year").value = "1898";
+  document.getElementById("electronsPerShell").value = "2, 8";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "Nonmetal noble gas";
+  document.getElementById("group").value = "18";
+  document.getElementById("period").value = "2";
+  document.getElementById("discoverer").value = "William Ramsay & Morris Travers";
+  document.getElementById("radius").value = "38 pm";
+  document.getElementById("color").value = "colorless, red-orange when charged";
+  document.getElementById("density").value = "0.0009 g/cm3";
+  document.getElementById("melt").value = "24.56 K, −248.59 °C, −415.46 °F";
+  document.getElementById("boil").value = "27.104 K, −246.07 °C, −410.88 °F";
+  document.getElementById("oxidation").value = "0";
+  document.getElementById("cost").value = "$33 per 100g";
+  //Neon Abundance:
+  document.getElementById("universe").value = "80,000";
+  document.getElementById("sun").value = "70,000";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "3";
+  document.getElementById("ocean").value = "0.037";
+  document.getElementById("human").value = "null";
+}
+
+function sodium() {
+  document.getElementById("element").value = "Sodium";
+  document.getElementById("atomicNum").value = "11";
+  document.getElementById("atomicWeight").value = "22.98977";
+  document.getElementById("protons").value = "11";
+  document.getElementById("electrons").value = "11";
+  document.getElementById("neutrons").value = "12";
+  document.getElementById("year").value = "1807";
+  document.getElementById("electronsPerShell").value = "2, 8, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkali Metal";
+  document.getElementById("group").value = "1";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Humphry Davy";
+  document.getElementById("radius").value = "186 pm";
+  document.getElementById("color").value = "silvery-white";
+  document.getElementById("density").value = "0.971 g/cm3";
+  document.getElementById("melt").value = "371 K, 98°C, 208°F";
+  document.getElementById("boil").value = "1156 K, 883 °C, 1621 °F";
+  document.getElementById("oxidation").value = "-1,0,1";
+  document.getElementById("cost").value = "$25 per 100g";
+  //Sodium Abundance:
+  document.getElementById("universe").value = "1000";
+  document.getElementById("sun").value = "2000";
+  document.getElementById("meteor").value = "4,800,000";
+  document.getElementById("earth").value = "21,000,000";
+  document.getElementById("ocean").value = "2,970,000";
+  document.getElementById("human").value = "380,000";
+}
+
+function magnesium() {
+  document.getElementById("element").value = "Magnesium";
+  document.getElementById("atomicNum").value = "12";
+  document.getElementById("atomicWeight").value = "	24.305";
+  document.getElementById("protons").value = "12";
+  document.getElementById("electrons").value = "12";
+  document.getElementById("neutrons").value = "12";
+  document.getElementById("year").value = "1868";
+  document.getElementById("electronsPerShell").value = "2, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkaline Earth Metal";
+  document.getElementById("group").value = "2";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Joseph Black";
+  document.getElementById("radius").value = "145 pm";
+  document.getElementById("color").value = "silvery-white";
+  document.getElementById("density").value = "1.738 g/cm3";
+  document.getElementById("melt").value = "923 K, 650 °C, 1202 °F";
+  document.getElementById("boil").value = "1363 K, 1091 °C, 1994 °F";
+  document.getElementById("oxidation").value = "0, 1, 2";
+  document.getElementById("cost").value = "$3.70 per 100g";
+  //Magnesium Abundance:
+  document.getElementById("universe").value = "30,000";
+  document.getElementById("sun").value = "30,000";
+  document.getElementById("meteor").value = "100,000,000";
+  document.getElementById("earth").value = "25,000,000";
+  document.getElementById("ocean").value = "337,000";
+  document.getElementById("human").value = "70,000";
+}
+
+function aluminium() {
+  document.getElementById("element").value = "Aluminium";
+  document.getElementById("atomicNum").value = "13";
+  document.getElementById("atomicWeight").value = "26.981538";
+  document.getElementById("protons").value = "13";
+  document.getElementById("electrons").value = "13";
+  document.getElementById("neutrons").value = "14";
+  document.getElementById("year").value = "1824";
+  document.getElementById("electronsPerShell").value = "2, 8, 3";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post Transition Metal";
+  document.getElementById("group").value = "13";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Hans Christian Ørsted";
+  document.getElementById("radius").value = "125 pm";
+  document.getElementById("color").value = "silvery";
+  document.getElementById("density").value = "2.702 g/cm3";
+  document.getElementById("melt").value = "933.47 K, 660.32 °C, 1220.58 °F";
+  document.getElementById("boil").value = "2743 K, 2470 °C, 4478 °F";
+  document.getElementById("oxidation").value = "-2, -1, 0, 1, 2, 3";
+  document.getElementById("cost").value = "$15.00 per 100g";
+  //Aluminum Abundance:
+  document.getElementById("universe").value = "2000";
+  document.getElementById("sun").value = "3000";
+  document.getElementById("meteor").value = "6,700,000";
+  document.getElementById("earth").value = "63,000,000";
+  document.getElementById("ocean").value = "1.1";
+  document.getElementById("human").value = "210";
+}
+
+function silicon() {
+  document.getElementById("element").value = "Silicon";
+  document.getElementById("atomicNum").value = "14";
+  document.getElementById("atomicWeight").value = "	28.0855";
+  document.getElementById("protons").value = "14";
+  document.getElementById("electrons").value = "14";
+  document.getElementById("neutrons").value = "14";
+  document.getElementById("year").value = "1823";
+  document.getElementById("electronsPerShell").value = "2, 8, 4";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Metalloid";
+  document.getElementById("group").value = "14";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Jöns Jacob Berzelius";
+  document.getElementById("radius").value = "110 pm";
+  document.getElementById("color").value = "silvery";
+  document.getElementById("density").value = "2.33 g/cm3";
+  document.getElementById("melt").value = "1687 K, 1414 °C, 2577 °F";
+  document.getElementById("boil").value = "3538 K, 3265 °C, 5909 °F";
+  document.getElementById("oxidation").value = "-4, -3, -2, -1, 0, 1, 2, 3, 4";
+  document.getElementById("cost").value = "$5.40 per 100g";
+  //Silicon Abundance:
+  document.getElementById("universe").value = "30,000";
+  document.getElementById("sun").value = "40,000";
+  document.getElementById("meteor").value = "100,000,000";
+  document.getElementById("earth").value = "200,000,000";
+  document.getElementById("ocean").value = "220";
+  document.getElementById("human").value = "58,000";
+}
+
+function phosphorus() {
+  document.getElementById("element").value = "Phosphorus";
+  document.getElementById("atomicNum").value = "15";
+  document.getElementById("atomicWeight").value = "30.97376";
+  document.getElementById("protons").value = "15";
+  document.getElementById("electrons").value = "15";
+  document.getElementById("neutrons").value = "16";
+  document.getElementById("year").value = "1669";
+  document.getElementById("electronsPerShell").value = "2, 8, 5";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p3";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "nonmetal";
+  document.getElementById("group").value = "15";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Hennig Brand";
+  document.getElementById("radius").value = "100 pm";
+  document.getElementById("color").value = "White: pale yellow";
+  document.getElementById("density").value = "1.82 g/cm3";
+  document.getElementById("melt").value = "	white: 317.3 K, 44.2 °C, 111.5 °F";
+  document.getElementById("boil").value = "	white: 553.7 K, 280.5 °C, 536.9 °F";
+  document.getElementById("oxidation").value = " -3, -2, -1, 0, 1, 2, 3, 4, 5";
+  document.getElementById("cost").value = "$30 per 100g";
+  //Phosphorus Abundance:
+  document.getElementById("universe").value = "300";
+  document.getElementById("sun").value = "300";
+  document.getElementById("meteor").value = "700,000";
+  document.getElementById("earth").value = "700,000";
+  document.getElementById("ocean").value = "14";
+  document.getElementById("human").value = "2,200,000";
+}
+
+function sulfur() {
+  document.getElementById("element").value = "Sulfur";
+  document.getElementById("atomicNum").value = "16";
+  document.getElementById("atomicWeight").value = "32.06";
+  document.getElementById("protons").value = "16";
+  document.getElementById("electrons").value = "16";
+  document.getElementById("neutrons").value = "16";
+  document.getElementById("year").value = "c2000 BCE";
+  document.getElementById("electronsPerShell").value = "2, 8, 6";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p4";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Nonmetal chalcogen";
+  document.getElementById("group").value = "16";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "88 pm";
+  document.getElementById("color").value = "Yellow";
+  document.getElementById("density").value = "2.07 g/cm3";
+  document.getElementById("melt").value = "	388.36 K, 115.21 °C, 239.38 °F";
+  document.getElementById("boil").value = "717.8 K, 444.6 °C, 832.3 °F";
+  document.getElementById("oxidation").value = "-2, -1, 0, 1, 2, 3, 4, 5, 6";
+  document.getElementById("cost").value = "$50 per 100g";
+  //Sulfur Abundance:
+  document.getElementById("universe").value = "20,000";
+  document.getElementById("sun").value = "10,000";
+  document.getElementById("meteor").value = "22,000,000";
+  document.getElementById("earth").value = "270,000";
+  document.getElementById("ocean").value = "179,000";
+  document.getElementById("human").value = "390,000";
+}
+
+function chlorine() {
+  document.getElementById("element").value = "Chlorine";
+  document.getElementById("atomicNum").value = "17";
+  document.getElementById("atomicWeight").value = "35.453";
+  document.getElementById("protons").value = "17";
+  document.getElementById("electrons").value = "17";
+  document.getElementById("neutrons").value = "18";
+  document.getElementById("year").value = "1774";
+  document.getElementById("electronsPerShell").value = "2, 8, 7";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p5";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "Nonmetal halogen";
+  document.getElementById("group").value = "17";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Carl Wilhelm Scheele";
+  document.getElementById("radius").value = "79 pm";
+  document.getElementById("color").value = "Yellowish- green";
+  document.getElementById("density").value = "0.003214 g/cm3";
+  document.getElementById("melt").value = "	171.6 K, −101.5 °C, −150.7 °F";
+  document.getElementById("boil").value = "239.11 K, −34.04 °C, −29.27 °F";
+  document.getElementById("oxidation").value = "-1, 1, 2, 3, 4, 5, 6, 7";
+  document.getElementById("cost").value = "$0.15 per 100g";
+  //Chlorine Abundance:
+  document.getElementById("universe").value = "40";
+  document.getElementById("sun").value = "300";
+  document.getElementById("meteor").value = "160,000";
+  document.getElementById("earth").value = "100,000";
+  document.getElementById("ocean").value = "3,470,000";
+  document.getElementById("human").value = "210,000";
+}
+
+function argon() {
+  document.getElementById("element").value = "Argon";
+  document.getElementById("atomicNum").value = "18";
+  document.getElementById("atomicWeight").value = "39.948";
+  document.getElementById("protons").value = "18";
+  document.getElementById("electrons").value = "18";
+  document.getElementById("neutrons").value = "22";
+  document.getElementById("year").value = "1894";
+  document.getElementById("electronsPerShell").value = "2, 8, 8";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "Nonmetal noble gas";
+  document.getElementById("group").value = "18";
+  document.getElementById("period").value = "3";
+  document.getElementById("discoverer").value = "Lord Rayleigh and William Ramsay";
+  document.getElementById("radius").value = "71 pm";
+  document.getElementById("color").value = "Colorless";
+  document.getElementById("density").value = "0.001784 g/cm3";
+  document.getElementById("melt").value = "83.81 K, (−189.34 °C, −308.81°F";
+  document.getElementById("boil").value = "87.302, −185.848 °C, −302.526 °F";
+  document.getElementById("oxidation").value = "0";
+  document.getElementById("cost").value = "$0.50 per 100g";
+  //Argon Abundance:
+  document.getElementById("universe").value = "6000";
+  document.getElementById("sun").value = "2000";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "780";
+  document.getElementById("ocean").value = "70";
+  document.getElementById("human").value = "null";
+}
+
+function potassium() {
+  document.getElementById("element").value = "Potassium";
+  document.getElementById("atomicNum").value = "19";
+  document.getElementById("atomicWeight").value = "39.0983";
+  document.getElementById("protons").value = "19";
+  document.getElementById("electrons").value = "19";
+  document.getElementById("neutrons").value = "20";
+  document.getElementById("year").value = "1807";
+  document.getElementById("electronsPerShell").value = "2, 8, 8, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 4s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkali Metal";
+  document.getElementById("group").value = "1";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Sir Humphry Davy";
+  document.getElementById("radius").value = "243 pm";
+  document.getElementById("color").value = "Silvery gray";
+  document.getElementById("density").value = "0.862 g/cm3";
+  document.getElementById("melt").value = "336.7 K ​(64 °C, ​146°F";
+  document.getElementById("boil").value = "1031 K ​(758 °C, ​1396  °F";
+  document.getElementById("oxidation").value = "-1,1";
+  document.getElementById("cost").value = "$100 per 100g";
+  //Potassium Abundance:
+  document.getElementById("universe").value = "100";
+  document.getElementById("sun").value = "100";
+  document.getElementById("meteor").value = "370000";
+  document.getElementById("earth").value = "7800000";
+  document.getElementById("ocean").value = "65800";
+  document.getElementById("human").value = "320000";
+}
+
+function calcium() {
+  document.getElementById("element").value = "Calcium";
+  document.getElementById("atomicNum").value = "20";
+  document.getElementById("atomicWeight").value = "40.078";
+  document.getElementById("protons").value = "20";
+  document.getElementById("electrons").value = "20";
+  document.getElementById("neutrons").value = "20";
+  document.getElementById("year").value = "1808";
+  document.getElementById("electronsPerShell").value = "2, 8, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkaline Earth Metal";
+  document.getElementById("group").value = "2";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Sir Humphry Davy";
+  document.getElementById("radius").value = "194 pm";
+  document.getElementById("color").value = "Silvery gray";
+  document.getElementById("density").value = "1.55 g/cm3";
+  document.getElementById("melt").value = "	1115 K, 842 °C, 1548 °F";
+  document.getElementById("boil").value = "1031 K, 758 °C, 1396  °F";
+  document.getElementById("oxidation").value = "1,2";
+  document.getElementById("cost").value = "$20 per 100g";
+  //Calcium Abundance:
+  document.getElementById("universe").value = "2000";
+  document.getElementById("sun").value = "2000";
+  document.getElementById("meteor").value = "5200000";
+  document.getElementById("earth").value = "26000000";
+  document.getElementById("ocean").value = "650";
+  document.getElementById("human").value = "2200000";
+}
+
+function scandium() {
+  document.getElementById("element").value = "Scandium";
+  document.getElementById("atomicNum").value = "21";
+  document.getElementById("atomicWeight").value = "44.95591";
+  document.getElementById("protons").value = "21";
+  document.getElementById("electrons").value = "21";
+  document.getElementById("neutrons").value = "21";
+  document.getElementById("year").value = "1879";
+  document.getElementById("electronsPerShell").value = "2, 8, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d1 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "3";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Lars F. Nilson";
+  document.getElementById("radius").value = "184 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "3.0 g/cm3";
+  document.getElementById("melt").value = "1814 K, 1541 °C, 2806 °F";
+  document.getElementById("boil").value = "3109 K, 2836 °C, 5136 °F";
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$1400 per 100g";
+  //Scandium Abundance:
+  document.getElementById("universe").value = "1";
+  document.getElementById("sun").value = "1";
+  document.getElementById("meteor").value = "2900";
+  document.getElementById("earth").value = "12000";
+  document.getElementById("ocean").value = "0.00021";
+  document.getElementById("human").value = "null";
+}
+
+function titanium() {
+  document.getElementById("element").value = "Titanium";
+  document.getElementById("atomicNum").value = "22";
+  document.getElementById("atomicWeight").value = "47.867";
+  document.getElementById("protons").value = "22";
+  document.getElementById("electrons").value = "22";
+  document.getElementById("neutrons").value = "26";
+  document.getElementById("year").value = "1791";
+  document.getElementById("electronsPerShell").value = "2, 8, 10, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d2 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "4";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "William Gregor";
+  document.getElementById("radius").value = "176 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "4.506 g/cm3";
+  document.getElementById("melt").value = "1941 K, 1668 °C, 3034 °F";
+  document.getElementById("boil").value = "3560 K, 3287 °C, 5949 °F";
+  document.getElementById("oxidation").value = "-2,-1,0,1,2,3";
+  document.getElementById("cost").value = "$661 per 100g";
+  //Titanium Abundance:
+  document.getElementById("universe").value = "80";
+  document.getElementById("sun").value = "100";
+  document.getElementById("meteor").value = "230000";
+  document.getElementById("earth").value = "2900000";
+  document.getElementById("ocean").value = "0.13";
+  document.getElementById("human").value = "null";
+}
+
+function vanadium() {
+  document.getElementById("element").value = "Vanadium";
+  document.getElementById("atomicNum").value = "23";
+  document.getElementById("atomicWeight").value = "50.94";
+  document.getElementById("protons").value = "23";
+  document.getElementById("electrons").value = "23";
+  document.getElementById("neutrons").value = "28";
+  document.getElementById("year").value = "1801";
+  document.getElementById("electronsPerShell").value = "2, 8, 11, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d3 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "5";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Andres Manuel ";
+  document.getElementById("radius").value = "171 pm";
+  document.getElementById("color").value = "Bluish silver-grey";
+  document.getElementById("density").value = "6.1 g/cm3";
+  document.getElementById("melt").value = "2183 K, 1910 °C, 3470 °F";
+  document.getElementById("boil").value = "3680 K, 3407 °C, 6165 °F";
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5";
+  document.getElementById("cost").value = "$220 per 100g";
+  //Vanadium Abundance:
+  document.getElementById("universe").value = "20";
+  document.getElementById("sun").value = "9";
+  document.getElementById("meteor").value = "23000";
+  document.getElementById("earth").value = "75000";
+  document.getElementById("ocean").value = "0.18";
+  document.getElementById("human").value = "4";
+}
+
+function chromium() {
+  document.getElementById("element").value = "Chromium";
+  document.getElementById("atomicNum").value = "24";
+  document.getElementById("atomicWeight").value = "51.9961";
+  document.getElementById("protons").value = "24";
+  document.getElementById("electrons").value = "24";
+  document.getElementById("neutrons").value = "28";
+  document.getElementById("year").value = "1780";
+  document.getElementById("electronsPerShell").value = "2, 8, 13, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d5 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "6";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Nicolas Louis Vauquelin";
+  document.getElementById("radius").value = "166 pm";
+  document.getElementById("color").value = "Silvery-gray";
+  document.getElementById("density").value = "7.19 g/cm3";
+  document.getElementById("melt").value = "2180 K, 1907 °C, 3465 °F °F";
+  document.getElementById("boil").value = "2944 K, 2671 °C, 4840 °F";
+  document.getElementById("oxidation").value = "-4,-2,-1,0,1,2,3,4,5,6";
+  document.getElementById("cost").value = "$32 per 100g";
+  //Chromium Abundance:
+  document.getElementById("universe").value = "400";
+  document.getElementById("sun").value = "400";
+  document.getElementById("meteor").value = "1200000";
+  document.getElementById("earth").value = "55000";
+  document.getElementById("ocean").value = "0.017";
+  document.getElementById("human").value = "4";
+}
+
+function manganese() {
+  document.getElementById("element").value = "Manganese";
+  document.getElementById("atomicNum").value = "25";
+  document.getElementById("atomicWeight").value = "54.9380";
+  document.getElementById("protons").value = "25";
+  document.getElementById("electrons").value = "25";
+  document.getElementById("neutrons").value = "30";
+  document.getElementById("year").value = "1774";
+  document.getElementById("electronsPerShell").value = "2, 8, 13, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d5 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "7";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Carl Wilhelm Scheele";
+  document.getElementById("radius").value = "161 pm";
+  document.getElementById("color").value = "gray-white";
+  document.getElementById("density").value = "7.43 g/cm3";
+  document.getElementById("melt").value = "1519 K, 1246 °C, 2275 °F";
+  document.getElementById("boil").value = "2334 K, 2061 °C, 3742 °F";
+  document.getElementById("oxidation").value = "-3,-2,-1,0,1,2,3,4,5,6,7";
+  document.getElementById("cost").value = "$6.5 per 100g";
+  //Chromium Abundance:
+  document.getElementById("universe").value = "200";
+  document.getElementById("sun").value = "200";
+  document.getElementById("meteor").value = "920000";
+  document.getElementById("earth").value = "420000";
+  document.getElementById("ocean").value = "0.23";
+  document.getElementById("human").value = "23";
+}
+  
+function iron() {
+  document.getElementById("element").value = "Iron";
+  document.getElementById("atomicNum").value = "26";
+  document.getElementById("atomicWeight").value = "55.845";
+  document.getElementById("protons").value = "26";
+  document.getElementById("electrons").value = "26";
+  document.getElementById("neutrons").value = "30";
+  document.getElementById("year").value = "Ancient";
+  document.getElementById("electronsPerShell").value = "2, 8, 14, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d6 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "8";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "156 pm";
+  document.getElementById("color").value = "Silvery-gray";
+  document.getElementById("density").value = "7.87 g/cm3";
+  document.getElementById("melt").value = "1811 K, 1538 °C, 2800 °F";
+  document.getElementById("boil").value = "3134 K, 2862 °C, 5182 °F";
+  document.getElementById("oxidation").value = "-4,-3,-2,-1,0,1,2,3,4,5,6,7";
+  document.getElementById("cost").value = "$7.20 per 100g";
+  //Iron Abundance:
+  document.getElementById("universe").value = "20000";
+  document.getElementById("sun").value = "30000";
+  document.getElementById("meteor").value = "77000000";
+  document.getElementById("earth").value = "23000000";
+  document.getElementById("ocean").value = "0.33";
+  document.getElementById("human").value = "6700";
+}
+
+function cobalt() {
+  document.getElementById("element").value = "Cobalt";
+  document.getElementById("atomicNum").value = "27";
+  document.getElementById("atomicWeight").value = "58.9332";
+  document.getElementById("protons").value = "27";
+  document.getElementById("electrons").value = "27";
+  document.getElementById("neutrons").value = "32";
+  document.getElementById("year").value = "1735";
+  document.getElementById("electronsPerShell").value = "2, 8, 15, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d7 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "9";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "George Brandt";
+  document.getElementById("radius").value = "152 pm";
+  document.getElementById("color").value = "Bluish-white";
+  document.getElementById("density").value = "8.90 g/cm3";
+  document.getElementById("melt").value = "1768 K, 1495 °C, 2723 °F";
+  document.getElementById("boil").value = "3200 K, 2927 °C, 5301 °F";
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5";
+  document.getElementById("cost").value = "$21 per 100g";
+  //Cobalt Abundance:
+  document.getElementById("universe").value = "60";
+  document.getElementById("sun").value = "70";
+  document.getElementById("meteor").value = "200000";
+  document.getElementById("earth").value = "10000";
+  document.getElementById("ocean").value = "0.008";
+  document.getElementById("human").value = "2";
+}
+
+function nickel() {
+  document.getElementById("element").value = "Nickel";
+  document.getElementById("atomicNum").value = "28";
+  document.getElementById("atomicWeight").value = "58.6934";
+  document.getElementById("protons").value = "28";
+  document.getElementById("electrons").value = "28";
+  document.getElementById("neutrons").value = "30";
+  document.getElementById("year").value = "1751";
+  document.getElementById("electronsPerShell").value = "2, 8, 16, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d8 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "10";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Axel Fredrik Cronstedt";
+  document.getElementById("radius").value = "152 pm";
+  document.getElementById("color").value = "Silvery-white, gold tinge";
+  document.getElementById("density").value = "8.908 g/cm3";
+  document.getElementById("melt").value = "1728 K, 1455 °C, 2651 °F";
+  document.getElementById("boil").value = "3003 K, 2730 °C, 4946 °F";
+  document.getElementById("oxidation").value = "-2,-1,0,1,2,3,4";
+  document.getElementById("cost").value = "$7.7 per 100g";
+  //Nickel Abundance:
+  document.getElementById("universe").value = "1000";
+  document.getElementById("sun").value = "2000";
+  document.getElementById("meteor").value = "4400000";
+  document.getElementById("earth").value = "32000";
+  document.getElementById("ocean").value = "0.21";
+  document.getElementById("human").value = "11";
+}
+
+function copper() {
+  document.getElementById("element").value = "Copper";
+  document.getElementById("atomicNum").value = "29";
+  document.getElementById("atomicWeight").value = "63.546";
+  document.getElementById("protons").value = "29";
+  document.getElementById("electrons").value = "29";
+  document.getElementById("neutrons").value = "35";
+  document.getElementById("year").value = "Ancient";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "11";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "145 pm";
+  document.getElementById("color").value = "Reddish-orange";
+  document.getElementById("density").value = "8.96 g/cm3";
+  document.getElementById("melt").value = "1357.77 K, 1084.62 °C, 1984.32 °F";
+  document.getElementById("boil").value = "2835 K, 2562 °C, 4643 °F";
+  document.getElementById("oxidation").value = "-2,0,1,2,3,4";
+  document.getElementById("cost").value = "$9.76 per 100g";
+  //Copper Abundance:
+  document.getElementById("universe").value = "1";
+  document.getElementById("sun").value = "10";
+  document.getElementById("meteor").value = "31000";
+  document.getElementById("earth").value = "22000";
+  document.getElementById("ocean").value = "0.29";
+  document.getElementById("human").value = "99";
+}
+
+function zinc() {
+  document.getElementById("element").value = "Zinc";
+  document.getElementById("atomicNum").value = "30";
+  document.getElementById("atomicWeight").value = "65.409";
+  document.getElementById("protons").value = "30";
+  document.getElementById("electrons").value = "30";
+  document.getElementById("neutrons").value = "35";
+  document.getElementById("year").value = "c1000 BCE";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition Metal";
+  document.getElementById("group").value = "12";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "142 pm";
+  document.getElementById("color").value = "Bluish-gray";
+  document.getElementById("density").value = "7.14 g/cm3";
+  document.getElementById("melt").value = "692.68 K, 419.53 °C, 787.15 °F";
+  document.getElementById("boil").value = "1180 K, 907 °C, 1665  °F";
+  document.getElementById("oxidation").value = "-2,0,1,2";
+  document.getElementById("cost").value = "$5.30 per 100g";
+  //Zinc Abundance:
+  document.getElementById("universe").value = "6";
+  document.getElementById("sun").value = "30";
+  document.getElementById("meteor").value = "44000";
+  document.getElementById("earth").value = "25000";
+  document.getElementById("ocean").value = "0.47";
+  document.getElementById("human").value = "3200";
+}
+
+function gallium() {
+  document.getElementById("element").value = "Gallium";
+  document.getElementById("atomicNum").value = "31";
+  document.getElementById("atomicWeight").value = "69.723";
+  document.getElementById("protons").value = "31";
+  document.getElementById("electrons").value = "31";
+  document.getElementById("neutrons").value = "40";
+  document.getElementById("year").value = "1875 BCE";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 3";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post transition Metal";
+  document.getElementById("group").value = "13";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Paul E. Lecoq de Boisbaudra";
+  document.getElementById("radius").value = "136 pm";
+  document.getElementById("color").value = "Silvery-blue";
+  document.getElementById("density").value = "5.907 g/cm3";
+  document.getElementById("melt").value = "302.9146 K, 29.7646 °C, 85.5763 °F";
+  document.getElementById("boil").value = "2673 K, 2400 °C, 4352  °F";
+  document.getElementById("oxidation").value = "-5,-4,-3,-2,0,1,2,3";
+  document.getElementById("cost").value = "$220 per 100g";
+  //Gallium Abundance:
+  document.getElementById("universe").value = "0.2";
+  document.getElementById("sun").value = "0.6";
+  document.getElementById("meteor").value = "2000";
+  document.getElementById("earth").value = "5500";
+  document.getElementById("ocean").value = "0.0027";
+  document.getElementById("human").value = "null";
+}
+
+function germanium() {
+  document.getElementById("element").value = "Germanium";
+  document.getElementById("atomicNum").value = "32";
+   document.getElementById("atomicWeight").value = "72.64";
+  document.getElementById("protons").value = "32";
+  document.getElementById("electrons").value = "32";
+  document.getElementById("neutrons").value = "42";
+  document.getElementById("year").value = "1886";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 4";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Metalloid";
+  document.getElementById("group").value = "14";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Clemens A. Winkler";
+  document.getElementById("radius").value = "125 pm";
+  document.getElementById("color").value = "Grayish-white";
+  document.getElementById("density").value = "5.323 g/cm3";
+  document.getElementById("melt").value = "1211.40 K, 938.25 °C, 1720.85 °F";
+  document.getElementById("boil").value = "3106 K, 2833 °C, 5131 °F";
+  document.getElementById("oxidation").value = "-4,-3,-2,0,1,2,3,4";
+  document.getElementById("cost").value = "$360 per 100g";
+  //Germanium Abundance:
+  document.getElementById("universe").value = "3";
+  document.getElementById("sun").value = "3";
+  document.getElementById("meteor").value = "4900";
+  document.getElementById("earth").value = "390";
+  document.getElementById("ocean").value = "0.0051";
+  document.getElementById("human").value = "null";
+}
+
+function arsenic() {
+  document.getElementById("element").value = "Arsenic";
+  document.getElementById("atomicNum").value = "33";
+   document.getElementById("atomicWeight").value = "74.9216";
+  document.getElementById("protons").value = "33";
+  document.getElementById("electrons").value = "33";
+  document.getElementById("neutrons").value = "42";
+  document.getElementById("year").value = "c800 AD";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 5";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p3";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Metalloid";
+  document.getElementById("group").value = "15";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Arabic alchemists?";
+  document.getElementById("radius").value = "114 pm";
+  document.getElementById("color").value = "Silverish";
+  document.getElementById("density").value = "5.776 g/cm3";
+  document.getElementById("melt").value = "1090 K, 816.9 °C, 1502.3 °F";
+  document.getElementById("boil").value = "887 K, 613.85 °C, 1136.9 °F";
+  document.getElementById("oxidation").value = "-3,-2,0,1,2,3,4,5";
+  document.getElementById("cost").value = "$320 per 100g";
+  //Arsenic Abundance:
+  document.getElementById("universe").value = "Trace";
+  document.getElementById("sun").value = "Trace";
+  document.getElementById("meteor").value = "460";
+  document.getElementById("earth").value = "580";
+  document.getElementById("ocean").value = "0.19";
+  document.getElementById("human").value = "4";
+}
+
+function selenium() {
+  document.getElementById("element").value = "Selenium";
+  document.getElementById("atomicNum").value = "34";
+  document.getElementById("atomicWeight").value = "78.96";
+  document.getElementById("protons").value = "34";
+  document.getElementById("electrons").value = "34";
+  document.getElementById("neutrons").value = "46";
+  document.getElementById("year").value = "1816";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 6";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Nonmetal";
+  document.getElementById("group").value = "16";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Jöns Jakob Berzelius and Johann Gottlieb Gahn";
+  document.getElementById("radius").value = "103 pm";
+  document.getElementById("color").value = "Black, gray or red";
+  document.getElementById("density").value = "5.776 g/cm3";
+  document.getElementById("melt").value = "494 K, 221 °C, 430 °F";
+  document.getElementById("boil").value = "958 K, 685 °C, 1265 °F";
+  document.getElementById("oxidation").value = "-2,0,1,2,3,4,5,6";
+  document.getElementById("cost").value = "$61 per 100g";
+  //Selenium Abundance:
+  document.getElementById("universe").value = "0.5";
+  document.getElementById("sun").value = "Trace";
+  document.getElementById("meteor").value = "2900";
+  document.getElementById("earth").value = "10";
+  document.getElementById("ocean").value = "0.035";
+  document.getElementById("human").value = "4";
+}
+
+function bromine() {
+  document.getElementById("element").value = "Bromine";
+  document.getElementById("atomicNum").value = "35";
+  document.getElementById("atomicWeight").value = "79.904";
+  document.getElementById("protons").value = "35";
+  document.getElementById("electrons").value = "35";
+  document.getElementById("neutrons").value = "44";
+  document.getElementById("year").value = "1825";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 7";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5";
+  document.getElementById("phase").value = "liquid";
+  document.getElementById("classification").value = "Nonmetal halogen";
+  document.getElementById("group").value = "17";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Antoine Jérôme Balar";
+  document.getElementById("radius").value = "103 pm";
+  document.getElementById("color").value = "Red-brown";
+  document.getElementById("density").value = "3.112 g/cm3";
+  document.getElementById("melt").value = "265.8 K, −7.2 °C, 19  °F";
+  document.getElementById("boil").value = "332.0 K, 58.8 °C, 137.8 °F";
+  document.getElementById("oxidation").value = "-1,1,2,3,4,5,7";
+  document.getElementById("cost").value = "$5 per 100g";
+  //Bromine Abundance:
+  document.getElementById("universe").value = "0.1";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "230";
+  document.getElementById("earth").value = "780";
+  document.getElementById("ocean").value = "5210";
+  document.getElementById("human").value = "230";
+}
+
+function krypton() {
+  document.getElementById("element").value = "Krypton";
+  document.getElementById("atomicNum").value = "36";
+    document.getElementById("atomicWeight").value = "83.80";
+  document.getElementById("protons").value = "36";
+  document.getElementById("electrons").value = "36";
+  document.getElementById("neutrons").value = "48";
+  document.getElementById("year").value = "1898";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 8";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6";
+  document.getElementById("phase").value = "liquid";
+  document.getElementById("classification").value = "Nonmetal noble gas";
+  document.getElementById("group").value = "18";
+  document.getElementById("period").value = "4";
+  document.getElementById("discoverer").value = "Morris Travers";
+  document.getElementById("radius").value = "88 pm";
+  document.getElementById("color").value = "Colorless";
+  document.getElementById("density").value = "3.112 g/cm3";
+  document.getElementById("melt").value = "115.78 K, −157.37 °C, −251.27 °F";
+  document.getElementById("boil").value = "119.93 K,−153.415 °C, −244.147  °F";
+  document.getElementById("oxidation").value = "0,1,2";
+  document.getElementById("cost").value = "$33 per 100g";
+  //Krypton Abundance:
+  document.getElementById("universe").value = "0.6";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "0.04";
+  document.getElementById("ocean").value = "0.016";
+  document.getElementById("human").value = "null";
+}
+
+function rubidium() {
+  document.getElementById("element").value = "Rubidium";
+  document.getElementById("atomicNum").value = "37";
+  document.getElementById("atomicWeight").value = "85.47";
+  document.getElementById("protons").value = "37";
+  document.getElementById("electrons").value = "37";
+  document.getElementById("neutrons").value = "48";
+  document.getElementById("year").value = "1861";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 8, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkali metal";
+  document.getElementById("group").value = "1";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Robert Bunsen and Gustav Kirchhoff";
+  document.getElementById("radius").value = "265 pm";
+  document.getElementById("color").value = "Silvery- white";
+  document.getElementById("density").value = "1.53 g/cm3";
+  document.getElementById("melt").value = "312.45 K, 39.30 °C, 102.74 °F";
+  document.getElementById("boil").value = "961 K, 688 °C, 1270 °F";
+  document.getElementById("oxidation").value = "-1,1";
+  document.getElementById("cost").value = "$1200 per 100g";
+  //Krypton Abundance:
+  document.getElementById("universe").value = "0.1";
+  document.getElementById("sun").value = "0.4";
+  document.getElementById("meteor").value = "770";
+  document.getElementById("earth").value = "14000";
+  document.getElementById("ocean").value = "8.7";
+  document.getElementById("human").value = "340";
+}
+
+function strontium(){
+  document.getElementById("element").value = "Strontium";
+  document.getElementById("atomicNum").value = "38";
+   document.getElementById("atomicWeight").value = "87.62";
+  document.getElementById("protons").value = "38";
+  document.getElementById("electrons").value = "38";
+  document.getElementById("neutrons").value = "50";
+  document.getElementById("year").value = "1787";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkaline earth metal";
+  document.getElementById("group").value = "2";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "William Cruickshank";
+  document.getElementById("radius").value = "219 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "2.6 g/cm3";
+  document.getElementById("melt").value = "1050 K, 777 °C, 1431 °F";
+  document.getElementById("boil").value = "1650, 1377 °C, 2511 °F";
+  document.getElementById("oxidation").value = "1,2";
+  document.getElementById("cost").value = "$1200 per 100g";
+  //Strontium Abundance:
+  document.getElementById("universe").value = "0.6";
+  document.getElementById("sun").value = "0.7";
+  document.getElementById("meteor").value = "2000";
+  document.getElementById("earth").value = "85000";
+  document.getElementById("ocean").value = "570";
+  document.getElementById("human").value = "330";
+}
+
+function yttrium() {
+  document.getElementById("element").value = "Yttrium";
+  document.getElementById("atomicNum").value = "39";
+   document.getElementById("atomicWeight").value = "88.9059";
+  document.getElementById("protons").value = "39";
+  document.getElementById("electrons").value = "39";
+  document.getElementById("neutrons").value = "50";
+  document.getElementById("year").value = "1794";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d1 5s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "3";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Johan Gadolin";
+  document.getElementById("radius").value = "212 pm";
+  document.getElementById("color").value = "Silvery- white";
+  document.getElementById("density").value = "2.47 g/cm3";
+  document.getElementById("melt").value = "1799 K, 1526 °C, 2779 °F";
+  document.getElementById("boil").value = "1650, 1377 °C, 2511 °F";
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$430 per 100g";
+  //Ytterbium Abundance:
+  document.getElementById("universe").value = "0.1";
+  document.getElementById("sun").value = "0.1";
+  document.getElementById("meteor").value = "430";
+  document.getElementById("earth").value = "6700";
+  document.getElementById("ocean").value = "0.0009";
+  document.getElementById("human").value = "null";
+}
+
+function zirconium() {
+  document.getElementById("element").value = "Zirconium";
+  document.getElementById("atomicNum").value = "40";
+   document.getElementById("atomicWeight").value = "91.22";
+  document.getElementById("protons").value = "40";
+  document.getElementById("electrons").value = "40";
+  document.getElementById("neutrons").value = "50";
+  document.getElementById("year").value = "1789";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 10, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d2 5s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "4";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Martin Heinrich Klaproth";
+  document.getElementById("radius").value = "206 pm";
+  document.getElementById("color").value = "Grayish- white";
+  document.getElementById("density").value = "6.52 g/cm3";
+  document.getElementById("melt").value = "2125 K, 1852 °C, 3365 °F";
+  document.getElementById("boil").value = "4650 K, 4377 °C, 7911 °F";
+  document.getElementById("oxidation").value = "-2,0,1,2,3,4";
+  document.getElementById("cost").value = "$157 per 100g";
+  //Zirconium Abundance:
+  document.getElementById("universe").value = "0.7";
+  document.getElementById("sun").value = "0.5";
+  document.getElementById("meteor").value = "1600";
+  document.getElementById("earth").value = "30000";
+  document.getElementById("ocean").value = "0.0018";
+  document.getElementById("human").value = "3";
+}
+
+function niobium() {
+  document.getElementById("element").value = "Niobium";
+  document.getElementById("atomicNum").value = "41";
+     document.getElementById("atomicWeight").value = "92.9064";
+  document.getElementById("protons").value = "41";
+  document.getElementById("electrons").value = "41";
+  document.getElementById("neutrons").value = "52";
+  document.getElementById("year").value = "1801";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 12, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d4 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "5";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Charles Hatchett";
+  document.getElementById("radius").value = "198 pm";
+  document.getElementById("color").value = "Silvery- white";
+  document.getElementById("density").value = "8.57 g/cm3";
+  document.getElementById("melt").value = "2750 K, 2477 °C, 4491 °F";
+  document.getElementById("boil").value = "5017 K, 4744 °C, 8571 °F";
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5";
+  document.getElementById("cost").value = "$18 per 100g";
+  //Niobium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.05";
+  document.getElementById("meteor").value = "30";
+  document.getElementById("earth").value = "3700";
+  document.getElementById("ocean").value = "0.0018";
+  document.getElementById("human").value = "0.000067";
+}
+
+function molybdenum() {
+  document.getElementById("element").value = "Molybdenum";
+  document.getElementById("atomicNum").value = "42";
+       document.getElementById("atomicWeight").value = "95.94";
+  document.getElementById("protons").value = "42";
+  document.getElementById("electrons").value = "42";
+  document.getElementById("neutrons").value = "56";
+  document.getElementById("year").value = "1778";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 13, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "6";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Carl Wilhelm Scheele";
+  document.getElementById("radius").value = "190 pm";
+  document.getElementById("color").value = "Silvery- white";
+  document.getElementById("density").value = "10.2 g/cm3";
+  document.getElementById("melt").value = "2896 K, 2623 °C, 4753 °F";
+  document.getElementById("boil").value = "4912 K, 4639 °C, 8382 °F";
+  document.getElementById("oxidation").value = "-4,-2,-1,0,1,2,3,4,5,6";
+  document.getElementById("cost").value = "$44 per 100g";
+  //Niobium Abundance:
+  document.getElementById("universe").value = "0.1";
+  document.getElementById("sun").value = "0.1";
+  document.getElementById("meteor").value = "250";
+  document.getElementById("earth").value = "230";
+  document.getElementById("ocean").value = "0.64";
+  document.getElementById("human").value = "7";
+}
+
+function technetium() {
+  document.getElementById("element").value = "Technetium";
+  document.getElementById("atomicNum").value = "43";
+         document.getElementById("atomicWeight").value = "98";
+  document.getElementById("protons").value = "43";
+  document.getElementById("electrons").value = "43";
+  document.getElementById("neutrons").value = "56";
+  document.getElementById("year").value = "1937";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 14, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "7";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Emilio Segrè and Carlo Perrier ";
+  document.getElementById("radius").value = "183 pm";
+  document.getElementById("color").value = "Silver-gray";
+  document.getElementById("density").value = "11.5 g/cm3";
+  document.getElementById("melt").value = "2430 K, 2157 °C, 3915 °F";
+  document.getElementById("boil").value = "4538 K, (4265 °C, 7709 °F";
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5,6,7";
+  document.getElementById("cost").value = "$? per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+
+
+function ruthenium() {
+  document.getElementById("element").value = "Ruthenium";
+  document.getElementById("atomicNum").value = "44";
+	 document.getElementById("atomicWeight").value = "101.07";
+  document.getElementById("protons").value = "44";
+  document.getElementById("electrons").value = "44";
+  document.getElementById("neutrons").value = "58";
+  document.getElementById("year").value = "1844";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 15, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "8";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Karl Ernst Claus  ";
+  document.getElementById("radius").value = "178 pm";
+  document.getElementById("color").value = "Silver-white";
+  document.getElementById("density").value = "12.45 g/cm3";
+  document.getElementById("melt").value = "2607 K 2334 °C, 4233 °F";
+  document.getElementById("boil").value = "4423 K 4150 °C, 7502 °F";
+  document.getElementById("oxidation").value = "-4,-2,0,1,2,3,4,5,6,7,8";
+  document.getElementById("cost").value = "$? per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.05";
+  document.getElementById("sun").value = "0.06";
+  document.getElementById("meteor").value = "160";
+  document.getElementById("earth").value = "0.2";
+  document.getElementById("ocean").value = "0.000043";
+  document.getElementById("human").value = "null";
+ 
+}
+
+function rhodium() {
+  document.getElementById("element").value = "Rhodium";
+  document.getElementById("atomicNum").value = "45";
+	 document.getElementById("atomicWeight").value = "102.9055";
+  document.getElementById("protons").value = "45";
+  document.getElementById("electrons").value = "45";
+  document.getElementById("neutrons").value = "58";
+  document.getElementById("year").value = "1804";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 16, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d8 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "9";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "William Hyde Wollaston  ";
+  document.getElementById("radius").value = "173 pm";
+  document.getElementById("color").value = "Silver-white";
+  document.getElementById("density").value = "12.41 g/cm3";
+  document.getElementById("melt").value = "2237 K 1964 °C, 3567 °F";
+  document.getElementById("boil").value = "3968 K 3695 °C, 6683 °F";
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5,6,7";
+  document.getElementById("cost").value = "$13,000 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.007";
+  document.getElementById("sun").value = "0.02";
+  document.getElementById("meteor").value = "40";
+  document.getElementById("earth").value = "0.1";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function palladium() {
+  document.getElementById("element").value = "Palladium";
+  document.getElementById("atomicNum").value = "46";
+	  document.getElementById("atomicWeight").value = "106.42";
+  document.getElementById("protons").value = "46";
+  document.getElementById("electrons").value = "46";
+  document.getElementById("neutrons").value = "60";
+  document.getElementById("year").value = "1802";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "10";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "William Hyde Wollaston  ";
+  document.getElementById("radius").value = "173 pm";
+  document.getElementById("color").value = "Silvery-white";
+  document.getElementById("density").value = "12.023 g/cm3";
+  document.getElementById("melt").value = "1828.05 K 1554.9 °C, 2830.82 °F";
+  document.getElementById("boil").value = "3236 K 2963 °C, 5365 °F";
+  document.getElementById("oxidation").value = "0,1,2,3,4,5";
+  document.getElementById("cost").value = "$5,833 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.04";
+  document.getElementById("meteor").value = "130";
+  document.getElementById("earth").value = "1";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "Trace";
+}
+
+function silver() {
+  document.getElementById("element").value = "Silver";
+  document.getElementById("atomicNum").value = "47";
+	 document.getElementById("atomicWeight").value = "107.8682";
+  document.getElementById("protons").value = "47";
+  document.getElementById("electrons").value = "47";
+  document.getElementById("neutrons").value = "60";
+  document.getElementById("year").value = "Ancient";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "11";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Unknown  ";
+  document.getElementById("radius").value = "165 pm";
+  document.getElementById("color").value = "Silver";
+  document.getElementById("density").value = "10.5 g/cm3";
+  document.getElementById("melt").value = "	1234.93 K 961.78 °C, 1763.2 °F";
+  document.getElementById("boil").value = "2435 K 2162 °C, 3924 °F";
+  document.getElementById("oxidation").value = "-2,-1,0,1,2,3";
+  document.getElementById("cost").value = "$120 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.007";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "20";
+  document.getElementById("ocean").value = "0.0057";
+  document.getElementById("human").value = "Trace";
+}
+
+function cadmium() {
+  document.getElementById("element").value = "Cadmium";
+  document.getElementById("atomicNum").value = "48";
+	document.getElementById("atomicWeight").value = "112.411";
+  document.getElementById("protons").value = "48";
+  document.getElementById("electrons").value = "48";
+  document.getElementById("neutrons").value = "66";
+  document.getElementById("year").value = "1817";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "12";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Karl Samuel Leberecht Hermann & Friedrich Stromeyer   ";
+  document.getElementById("radius").value = "161 pm";
+  document.getElementById("color").value = "silvery bluish-gray";
+  document.getElementById("density").value = "8.65 g/cm3";
+  document.getElementById("melt").value = "	594.22 K 321.07 °C, 609.93 °F";
+  document.getElementById("boil").value = "1040 K 767 °C, 1413 °F";
+  document.getElementById("oxidation").value = "-2,1,2";
+  document.getElementById("cost").value = "$46 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.07";
+  document.getElementById("meteor").value = "60";
+  document.getElementById("earth").value = "30";
+  document.getElementById("ocean").value = "0.0028";
+  document.getElementById("human").value = "39";
+}
+
+function indium() {
+  document.getElementById("element").value = "Indium";
+  document.getElementById("atomicNum").value = "49";
+	document.getElementById("atomicWeight").value = "114.818";
+  document.getElementById("protons").value = "49";
+  document.getElementById("electrons").value = "49";
+  document.getElementById("neutrons").value = "66";
+  document.getElementById("year").value = "1863";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 3";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "post transition metal";
+  document.getElementById("group").value = "13";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Ferdinand Reich and Hieronymous Theodor Richter   ";
+  document.getElementById("radius").value = "156 pm";
+  document.getElementById("color").value = "silvery gray";
+  document.getElementById("density").value = "7.31 g/cm3";
+  document.getElementById("melt").value = "	429.75 K 156.60 °C, 313.88 °F";
+  document.getElementById("boil").value = "2345 K 2072 °C, 3762 °F";
+  document.getElementById("oxidation").value = "-5,-2,-1,0,1,2,3";
+  document.getElementById("cost").value = "$968 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.003";
+  document.getElementById("sun").value = "0.04";
+  document.getElementById("meteor").value = "10";
+  document.getElementById("earth").value = "30";
+  document.getElementById("ocean").value = "0.000005";
+  document.getElementById("human").value = "null";
+}
+
+function tin() {
+  document.getElementById("element").value = "Tin";
+  document.getElementById("atomicNum").value = "50";
+	document.getElementById("atomicWeight").value = "118.71";
+  document.getElementById("protons").value = "50";
+  document.getElementById("electrons").value = "50";
+  document.getElementById("neutrons").value = "69";
+  document.getElementById("year").value = "Ancient";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 4";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "post transition metal";
+  document.getElementById("group").value = "14";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Unknown  ";
+  document.getElementById("radius").value = "145 pm";
+  document.getElementById("color").value = "silvery";
+  document.getElementById("density").value = "7.30 g/cm3";
+  document.getElementById("melt").value = "	505.08 K 231.93 °C, 449.47 °F";
+  document.getElementById("boil").value = "2875 K 2602 °C, 4716 °F";
+  document.getElementById("oxidation").value = "-4,-3,-2,-1,0,1,2,3";
+  document.getElementById("cost").value = "$24 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.04";
+  document.getElementById("sun").value = "0.1";
+  document.getElementById("meteor").value = "170";
+  document.getElementById("earth").value = "300";
+  document.getElementById("ocean").value = "0.00052";
+  document.getElementById("human").value = "11";
+}
+
+
+function antimony() {
+  document.getElementById("element").value = "Antimony";
+  document.getElementById("atomicNum").value = "51";
+	document.getElementById("atomicWeight").value = "121.76";
+  document.getElementById("protons").value = "51";
+  document.getElementById("electrons").value = "51";
+  document.getElementById("neutrons").value = "70";
+  document.getElementById("year").value = "c800 AD";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 5";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p3";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Metalloid";
+  document.getElementById("group").value = "15";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Unknown  ";
+  document.getElementById("radius").value = "133 pm";
+  document.getElementById("color").value = "silvery- gray";
+  document.getElementById("density").value = "6.697 g/cm3";
+  document.getElementById("melt").value = "	903.78 K  630.63 °C, 1167.13  °F";
+  document.getElementById("boil").value = "1908 K 1635 °C, 2975  °F";
+  document.getElementById("oxidation").value = "-3,-2,-1,0,1,2,3,4,5";
+  document.getElementById("cost").value = "$4.5 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.004";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "30";
+  document.getElementById("ocean").value = "0.010";
+  document.getElementById("human").value = "null";
+}
+
+function tellurium() {
+  document.getElementById("element").value = "Tellurium";
+  document.getElementById("atomicNum").value = "52";
+	document.getElementById("atomicWeight").value = "127.6";
+  document.getElementById("protons").value = "52";
+  document.getElementById("electrons").value = "52";
+  document.getElementById("neutrons").value = "78";
+  document.getElementById("year").value = "1782";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 6";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Metalloid";
+  document.getElementById("group").value = "16";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Franz-Joseph Müller von Reichenstein  ";
+  document.getElementById("radius").value = "133 pm";
+  document.getElementById("color").value = "silvery- gray";
+  document.getElementById("density").value = "6.24 g/cm3";
+  document.getElementById("melt").value = "722.66 K 449.51 °C, 841.12  °F";
+  document.getElementById("boil").value = "1261 K 988 °C, 1810  °F";
+  document.getElementById("oxidation").value = "-2,-1,0,1,2,3,4,5,6";
+  document.getElementById("cost").value = "$24 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.09";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "300";
+  document.getElementById("earth").value = "0.2";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function iodine() {
+  document.getElementById("element").value = "Iodine";
+  document.getElementById("atomicNum").value = "53";
+	document.getElementById("atomicWeight").value = "126.90447";
+  document.getElementById("protons").value = "53";
+  document.getElementById("electrons").value = "53";
+  document.getElementById("neutrons").value = "74";
+  document.getElementById("year").value = "1811";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 7";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p5";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Non metal halogen";
+  document.getElementById("group").value = "17";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "Bernard Courtois   ";
+  document.getElementById("radius").value = "115 pm";
+  document.getElementById("color").value = "grayish- blue";
+  document.getElementById("density").value = "4.933 g/cm3";
+  document.getElementById("melt").value = " 386.85 K 113.7 °C, 236.66  °F";
+  document.getElementById("boil").value = "457.4 K 184.3 °C, 363.7   °F";
+  document.getElementById("oxidation").value = "-1,1,2,3,4,5,6,7";
+  document.getElementById("cost").value = "$8.30 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.01";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "300";
+  document.getElementById("earth").value = "80";
+  document.getElementById("ocean").value = "2.9";
+  document.getElementById("human").value = "10";
+}
+
+function xenon() {
+  document.getElementById("element").value = "Xenon";
+  document.getElementById("atomicNum").value = "54";
+	document.getElementById("atomicWeight").value = "131.293";
+  document.getElementById("protons").value = "54";
+  document.getElementById("electrons").value = "54";
+  document.getElementById("neutrons").value = "78";
+  document.getElementById("year").value = "1898";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 8";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6";
+  document.getElementById("phase").value = "gas";
+  document.getElementById("classification").value = "Noble gas";
+  document.getElementById("group").value = "18";
+  document.getElementById("period").value = "5";
+  document.getElementById("discoverer").value = "William Ramsay and Morris Travers ";
+  document.getElementById("radius").value = "108 pm";
+  document.getElementById("color").value = "colorless";
+  document.getElementById("density").value = "0.00588 g/cm3";
+  document.getElementById("melt").value = "161.40 K −111.75 °C, −169.15  °F";
+  document.getElementById("boil").value = "165.051 K −108.099 °C, −162.578  °F";
+  document.getElementById("oxidation").value = "0,2,4,6,8";
+  document.getElementById("cost").value = "$120 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.09";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "0.003";
+  document.getElementById("ocean").value = "0.00024";
+  document.getElementById("human").value = "null";
+}
+
+function caesium() {
+  document.getElementById("element").value = "Caesium";
+  document.getElementById("atomicNum").value = "55";
+	document.getElementById("atomicWeight").value = "132.9055";
+  document.getElementById("protons").value = "55";
+  document.getElementById("electrons").value = "55";
+  document.getElementById("neutrons").value = "78";
+  document.getElementById("year").value = "1860";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 8, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkali metal";
+  document.getElementById("group").value = "1";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Robert Bunsen and Gustav Kirchhoff  ";
+  document.getElementById("radius").value = "298 pm";
+  document.getElementById("color").value = "yellowish silver";
+  document.getElementById("density").value = "1.93 g/cm3";
+  document.getElementById("melt").value = "301.7 K 28.5 °C, 83.3  °F";
+  document.getElementById("boil").value = "944 K 671 °C, 1240  °F";
+  document.getElementById("oxidation").value = "-1,1";
+  document.getElementById("cost").value = "1100 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.01";
+  document.getElementById("sun").value = "0.07";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "290";
+  document.getElementById("ocean").value = "0.023";
+  document.getElementById("human").value = "1";
+}
+
+function barium() {
+  document.getElementById("element").value = "Barium";
+  document.getElementById("atomicNum").value = "56";
+	document.getElementById("atomicWeight").value = "137.327";
+  document.getElementById("protons").value = "56";
+  document.getElementById("electrons").value = "56";
+  document.getElementById("neutrons").value = "82";
+  document.getElementById("year").value = "1772";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 8, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Alkaline earth metal";
+  document.getElementById("group").value = "2";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Wilhelm Scheele  ";
+  document.getElementById("radius").value = "253 pm";
+  document.getElementById("color").value = "silver gray w/ yellow tint";
+  document.getElementById("density").value = "3.59 g/cm3";
+  document.getElementById("melt").value = "1000 K 727 °C, 1341 °F";
+  document.getElementById("boil").value = "2118 K 1845 °C, 3353 °F";
+  document.getElementById("oxidation").value = "1,2";
+  document.getElementById("cost").value = "$55 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.09";
+  document.getElementById("sun").value = "0.1";
+  document.getElementById("meteor").value = "410";
+  document.getElementById("earth").value = "51000";
+  document.getElementById("ocean").value = "1.4";
+  document.getElementById("human").value = "14";
+}
+
+function lanthanum() {
+  document.getElementById("element").value = "Lanthanum";
+  document.getElementById("atomicNum").value = "57";
+	document.getElementById("atomicWeight").value = "138.9055";
+  document.getElementById("protons").value = "57";
+  document.getElementById("electrons").value = "57";
+  document.getElementById("neutrons").value = "82";
+  document.getElementById("year").value = "1838";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 18, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "lanthanide rare earth metal";
+  document.getElementById("group").value = "lanthanide";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Gustaf Mosander   ";
+  document.getElementById("radius").value = "195 pm";
+  document.getElementById("color").value = "silver white";
+  document.getElementById("density").value = "6.16 g/cm3";
+  document.getElementById("melt").value = "1193 K 920 °C, 1688 °F";
+  document.getElementById("boil").value = "3737 K 3464 °C, 6267 °F";
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$800 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "40";
+  document.getElementById("earth").value = "5000";
+  document.getElementById("ocean").value = "0.00015";
+  document.getElementById("human").value = "null";
+}
+
+function cerium() {
+  document.getElementById("element").value = "Cerium";
+  document.getElementById("atomicNum").value = "58";
+	document.getElementById("atomicWeight").value = "140.12";
+  document.getElementById("protons").value = "58";
+  document.getElementById("electrons").value = "58";
+  document.getElementById("neutrons").value = "82";
+  document.getElementById("year").value = "1803";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 20, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f1 5d1 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "lanthanide rare earth metal";
+  document.getElementById("group").value = "lanthanide";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Martin Heinrich Klaproth, Jöns Jakob Berzelius, Wilhelm Hisinger (";
+  document.getElementById("radius").value = "185 pm";
+  document.getElementById("color").value = "silver white";
+  document.getElementById("density").value = "6.770 g/cm3";
+  document.getElementById("melt").value = "1193 K 920 °C, 1688  °F";
+  document.getElementById("boil").value = "3737 K 3464 °C, 6267 °F";
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$380 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.09";
+  document.getElementById("sun").value = "0.03";
+  document.getElementById("meteor").value = "110";
+  document.getElementById("earth").value = "8900";
+  document.getElementById("ocean").value = "0.000053";
+  document.getElementById("human").value = "null";
+}
+
+function praseodymium() {
+  document.getElementById("element").value = "Praseodymium";
+  document.getElementById("atomicNum").value = "59";
+	document.getElementById("atomicWeight").value = "140.90765";
+  document.getElementById("protons").value = "59";
+  document.getElementById("electrons").value = "59";
+  document.getElementById("neutrons").value = "82";
+  document.getElementById("year").value = "1885";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 21, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f3  6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "lanthanide rare earth metal";
+  document.getElementById("group").value = "lanthanide";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Auer von Welsbach";
+  document.getElementById("radius").value = "247 pm";
+  document.getElementById("color").value = "silver";
+  document.getElementById("density").value = "6.77 g/cm3";
+  document.getElementById("melt").value = "1208 K 935 °C, 1715  °F";
+  document.getElementById("boil").value = "3403 K 3130 °C, 5666 °F";
+  document.getElementById("oxidation").value = "0,1,2,3,4,5";
+  document.getElementById("cost").value = "$470 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.005";
+  document.getElementById("meteor").value = "10";
+  document.getElementById("earth").value = "1300";
+  document.getElementById("ocean").value = "0.000026";
+  document.getElementById("human").value = "null";
+}
+
+function neodymium() {
+  document.getElementById("element").value = "Neodymium";
+  document.getElementById("atomicNum").value = "60";
+  document.getElementById("atomicWeight").value = "144.24";
+  document.getElementById("protons").value = "60";
+  document.getElementById("electrons").value = "60";
+  document.getElementById("neutrons").value = "82";
+  document.getElementById("year").value = "1885";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 22, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f4 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide";
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Auer von Welsbach ";
+  document.getElementById("radius").value = "206 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "7.01 g/cm3";
+  document.getElementById("melt").value = "1297 K 1024 °C ​1875 °F";
+  document.getElementById("boil").value = "3347 K 3074 °C 5565 °F";
+  document.getElementById("oxidation").value = "0,2,3,4";
+  document.getElementById("cost").value = "$420 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.09";
+  document.getElementById("sun").value = "0.02";
+  document.getElementById("meteor").value = "70";
+  document.getElementById("earth").value = "4800";
+  document.getElementById("ocean").value = "	0.00012";
+  document.getElementById("human").value = "null";
+}
+
+function promethium() {
+  document.getElementById("element").value = "Promethium";
+  document.getElementById("atomicNum").value = "61";
+  document.getElementById("atomicWeight").value = "145";
+  document.getElementById("protons").value = "61";
+  document.getElementById("electrons").value = "61";
+  document.getElementById("neutrons").value = "84";
+  document.getElementById("year").value = "1945";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 23, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f5 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide";
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Charles D. Coryell, Jacob A. Marinsky, Lawrence E. Glendenin ";
+  document.getElementById("radius").value = "205 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "7.26 g/cm3";
+  document.getElementById("melt").value = "1315 K 1042 °C ​1908 °F";
+  document.getElementById("boil").value = "3273 K 3000 °C ​5432 °F";
+  document.getElementById("oxidation").value = "2,3";
+  document.getElementById("cost").value = "unknown";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "0.005";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function samarium() {
+  document.getElementById("element").value = "Samarium";
+  document.getElementById("atomicNum").value = "62";
+  document.getElementById("atomicWeight").value = "150.36";
+  document.getElementById("protons").value = "62";
+  document.getElementById("electrons").value = "62";
+  document.getElementById("neutrons").value = "90";
+  document.getElementById("year").value = "1945";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 24, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f6 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide";
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Lecoq de Boisbaudran ";
+  document.getElementById("radius").value = "238 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "7.52 g/cm3";
+  document.getElementById("melt").value = "1345 K 1072 °C 1961 °F";
+  document.getElementById("boil").value = "2076 K 1803 °C 3277 °F";
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$360 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.04";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "820";
+  document.getElementById("ocean").value = "0.000019";
+  document.getElementById("human").value = "null";
+}
+
+
+
+function europium() {
+  document.getElementById("element").value = "Europium"; 
+  document.getElementById("atomicNum").value = "63";
+  document.getElementById("atomicWeight").value = "151.964";
+  document.getElementById("protons").value = "63";
+  document.getElementById("electrons").value = "63";
+  document.getElementById("neutrons").value = "90";
+  document.getElementById("year").value = "1945";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 25, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f7 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide";
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Eugène-Anatole Demarçay ";
+  document.getElementById("radius").value = "231 pm";
+  document.getElementById("color").value = "Silver";
+  document.getElementById("density").value = "5.248 g/cm3";
+  document.getElementById("melt").value = "1095 K 822 °C 1511 °F";
+  document.getElementById("boil").value = "1800 K 1527 °C 2780 °F";
+  document.getElementById("oxidation").value = "0,2,3";
+  document.getElementById("cost").value = "$1350 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.004";
+  document.getElementById("sun").value = "0.004";
+  document.getElementById("meteor").value = "8";
+  document.getElementById("earth").value = "240";
+  document.getElementById("ocean").value = "0.000005";
+  document.getElementById("human").value = "null";
+}
+
+function gadolinium() {
+  document.getElementById("element").value = "Gadolinium";
+  document.getElementById("atomicNum").value = "64";
+  document.getElementById("atomicWeight").value = "157.25";
+  document.getElementById("protons").value = "64";
+  document.getElementById("electrons").value = "64";
+  document.getElementById("neutrons").value = "94";
+  document.getElementById("year").value = "1880";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 25, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f7 5d1 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Jean Charles Galissard de Marignac ";
+  document.getElementById("radius").value = "233 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "7.895 g/cm3";
+  document.getElementById("melt").value = "1586 K 1313 °C 2395 °F";
+  document.getElementById("boil").value = "3523 K 3250 °C 5882 °F"; 
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$450 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.004";
+  document.getElementById("sun").value = "0.001";
+  document.getElementById("meteor").value = "5";
+  document.getElementById("earth").value = "680";
+  document.getElementById("ocean").value = "0.000028";
+  document.getElementById("human").value = "null";
+}
+
+function terbium() {
+  document.getElementById("element").value = "Terbium";
+  document.getElementById("atomicNum").value = "65";
+  document.getElementById("atomicWeight").value = "158.9253";
+  document.getElementById("protons").value = "65";
+  document.getElementById("electrons").value = "65";
+  document.getElementById("neutrons").value = "94";
+  document.getElementById("year").value = "1843";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 27, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f9 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Gustaf Mosander ";
+  document.getElementById("radius").value = "225 pm";
+  document.getElementById("color").value = "Silvery gray";
+  document.getElementById("density").value = "8.27 g/cm3";
+  document.getElementById("melt").value = "1629 K 1356 °C 2473 °F";
+  document.getElementById("boil").value = "3503 K 3230 °C 5846 °F"; 
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$5,040 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "30";
+  document.getElementById("earth").value = "120";
+  document.getElementById("ocean").value = "0.000005";
+  document.getElementById("human").value = "null";
+}
+
+function dysprosium() {
+  document.getElementById("element").value = "Dysprosium";
+  document.getElementById("atomicNum").value = "66";
+  document.getElementById("atomicWeight").value = "162.5";
+  document.getElementById("protons").value = "66";
+  document.getElementById("electrons").value = "66";
+  document.getElementById("neutrons").value = "98";
+  document.getElementById("year").value = "1886";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 28, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f10 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Lecoq de Boisbaudran ";
+  document.getElementById("radius").value = "228 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "8.536 g/cm3";
+  document.getElementById("melt").value = "1685 K 1412 °C 2573 °F";
+  document.getElementById("boil").value = "2840 K 25667°C, 4652 °F"; 
+  document.getElementById("oxidation").value = "0,1,2,3,4";
+  document.getElementById("cost").value = "$450 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "30";
+  document.getElementById("earth").value = "790";
+  document.getElementById("ocean").value = "0.000035";
+  document.getElementById("human").value = "null";
+}
+
+function holmium() {
+  document.getElementById("element").value = "Holmium";
+  document.getElementById("atomicNum").value = "67";
+  document.getElementById("atomicWeight").value = "164.9303";
+  document.getElementById("protons").value = "67";
+  document.getElementById("electrons").value = "67";
+  document.getElementById("neutrons").value = "98";
+  document.getElementById("year").value = "1878";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 29, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f11 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Jacques-Louis Soret and Marc Delafontaine ";
+  document.getElementById("radius").value = "226 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "8.8 g/cm3";
+  document.getElementById("melt").value = "	1747 K 1474 °C  2685 °F";
+  document.getElementById("boil").value = "2973 K 2700 °C, 4892 °F"; 
+  document.getElementById("oxidation").value = "0,1,2,3";
+  document.getElementById("cost").value = "$860 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.004";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "7";
+  document.getElementById("earth").value = "150";
+  document.getElementById("ocean").value = "0.000008";
+  document.getElementById("human").value = "null";
+}
+
+function erbium() {
+  document.getElementById("element").value = "Erbium";
+  document.getElementById("atomicNum").value = "68";
+  document.getElementById("atomicWeight").value = "167.26";
+  document.getElementById("protons").value = "68";
+  document.getElementById("electrons").value = "68";
+  document.getElementById("neutrons").value = "98";
+  document.getElementById("year").value = "1843";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 30, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f12 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Gustaf Mosander ";
+  document.getElementById("radius").value = "226 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "9.05 g/cm3";
+  document.getElementById("melt").value = "	1770 K 1497 °C, 2726 °F";
+  document.getElementById("boil").value = "3141 K 28678 °C 5194 °F"; 
+  document.getElementById("oxidation").value = "0,1,2,3"
+  document.getElementById("cost").value = "$540 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.01";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "370";
+  document.getElementById("ocean").value = "0.000033";
+  document.getElementById("human").value = "null";
+}
+
+function thulium() {
+  document.getElementById("element").value = "Thulium";
+  document.getElementById("atomicNum").value = "69";
+  document.getElementById("atomicWeight").value = "	168.9342";
+  document.getElementById("protons").value = "69";
+  document.getElementById("electrons").value = "69";
+  document.getElementById("neutrons").value = "100";
+  document.getElementById("year").value = "1879";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 31, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f13 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Per Teodor Cleve  ";
+  document.getElementById("radius").value = "222 pm";
+  document.getElementById("color").value = "Silvery gray";
+  document.getElementById("density").value = "9.33 g/cm3";
+  document.getElementById("melt").value = "	1818 K 1545 °C, 2813 °F";
+  document.getElementById("boil").value = "2223 K 1950 °C, 3542 °F"; 
+  document.getElementById("oxidation").value = "0,1,2,3"
+  document.getElementById("cost").value = "$700 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.001";
+  document.getElementById("sun").value = "0.001";
+  document.getElementById("meteor").value = "3";
+  document.getElementById("earth").value = "50";
+  document.getElementById("ocean").value = "0.000007";
+  document.getElementById("human").value = "null";
+}
+
+function ytterbium() {
+  document.getElementById("element").value = "Ytterbium";
+  document.getElementById("atomicNum").value = "70";
+  document.getElementById("atomicWeight").value = "		173.04";
+  document.getElementById("protons").value = "70";
+  document.getElementById("electrons").value = "70";
+  document.getElementById("neutrons").value = "104";
+  document.getElementById("year").value = "1878";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "none";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Jean Charles Galissard de Marignac   ";
+  document.getElementById("radius").value = "222 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "9.97 g/cm3";
+  document.getElementById("melt").value = "	1092 K 8189 °C 1505 °F";
+  document.getElementById("boil").value = "1469 K 1196 °C 2185°F"; 
+  document.getElementById("oxidation").value = "0,1,2,3"
+  document.getElementById("cost").value = "$1400 per 100g";
+  //Technetium Abundance:
+  document.getElementById("universe").value = "0.01";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "340";
+  document.getElementById("ocean").value = "	0.000029";
+  document.getElementById("human").value = "null";
+}
+
+
+
+function lutetium() {
+  document.getElementById("element").value = "Lutetium";
+  document.getElementById("atomicNum").value = "71";
+  document.getElementById("atomicWeight").value = "		174.967";
+  document.getElementById("protons").value = "71";
+  document.getElementById("electrons").value = "71";
+  document.getElementById("neutrons").value = "104";
+  document.getElementById("year").value = "1906";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d1 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "	Lanthanide"; 
+  document.getElementById("group").value = "3";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Carl Auer von Welsbach and Georges Urbain   ";
+  document.getElementById("radius").value = "217 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "9.8 g/cm3";
+  document.getElementById("melt").value = "	1936 K 1663 °C 3025 °F";
+  document.getElementById("boil").value = "3675 K 3402 °C 6155°F"; 
+  document.getElementById("oxidation").value = "0,1,2,3"
+  document.getElementById("cost").value = "$340 per 100g";
+  //Lutetium Abundance:
+  document.getElementById("universe").value = "0.001";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "3";
+  document.getElementById("earth").value = "79";
+  document.getElementById("ocean").value = " 	0.000005";
+  document.getElementById("human").value = "null";
+}
+
+function hafnium() {
+  document.getElementById("element").value = "Hafnium";
+  document.getElementById("atomicNum").value = "72";
+  document.getElementById("atomicWeight").value = "	178.49";
+  document.getElementById("protons").value = "72";
+  document.getElementById("electrons").value = "72";
+  document.getElementById("neutrons").value = "108";
+  document.getElementById("year").value = "1922";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 10, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d2 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "4";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Dirk Coster and George de Hevesy";
+  document.getElementById("radius").value = "208 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "13.2 g/cm3";
+  document.getElementById("melt").value = "2506 K 2233 °C 4051 °F";
+  document.getElementById("boil").value = "4876 K 4603 °C 8317°F"; 
+  document.getElementById("oxidation").value = "-2,0,1,2,3,4"
+  document.getElementById("cost").value = "$120 per 100g";
+  //Hafnium Abundance:
+  document.getElementById("universe").value = "0.005";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "380";
+  document.getElementById("ocean").value = " 	0.00028";
+  document.getElementById("human").value = "null";
+}
+
+function tantalum() {
+  document.getElementById("element").value = "Tantalum";
+  document.getElementById("atomicNum").value = "73";
+  document.getElementById("atomicWeight").value = "	180.947";
+  document.getElementById("protons").value = "73";
+  document.getElementById("electrons").value = "73";
+  document.getElementById("neutrons").value = "108";
+  document.getElementById("year").value = "1802";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 11, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d3 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "5";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Anders Gustaf Ekeberg";
+  document.getElementById("radius").value = "200 pm";
+  document.getElementById("color").value = "Gray blue";
+  document.getElementById("density").value = "16.6 g/cm3";
+  document.getElementById("melt").value = "	3290 K 3017 °C 5463 °F";
+  document.getElementById("boil").value = "5731 K 5458 °C 9856 °F"; 
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5"
+  document.getElementById("cost").value = "$450 per 100g";
+  //Tantalum Abundance:
+  document.getElementById("universe").value = "0.0006";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "2";
+  document.getElementById("earth").value = "190";
+  document.getElementById("ocean").value = "0.000068";
+  document.getElementById("human").value = "null";
+}
+
+function tungsten() {
+  document.getElementById("element").value = "Tungsten";
+  document.getElementById("atomicNum").value = "74";
+   document.getElementById("atomicWeight").value = "183.84";
+  document.getElementById("protons").value = "74";
+  document.getElementById("electrons").value = "74";
+  document.getElementById("neutrons").value = "110";
+  document.getElementById("year").value = "1783";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 12, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d4 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "6";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Juan José Elhuyar and Fausto Elhuyar";
+  document.getElementById("radius").value = "193 pm";
+  document.getElementById("color").value = "Grayish white";
+  document.getElementById("density").value = "19.3 g/cm3";
+  document.getElementById("melt").value = "3695 K 3422 °C 6192 °F";
+  document.getElementById("boil").value = "6203 K 5930 °C 10706 °F"; 
+  document.getElementById("oxidation").value = "-4,-2,-1,0,1,2,3,4,5,6"
+  document.getElementById("cost").value = "$11 per 100g";
+  //Tungsten Abundance:
+  document.getElementById("universe").value = "0.003";
+  document.getElementById("sun").value = "0.03";
+  document.getElementById("meteor").value = "10";
+  document.getElementById("earth").value = "120";
+  document.getElementById("ocean").value = "0.0040";
+  document.getElementById("human").value = "null";
+}
+
+function rhenium() {
+  document.getElementById("element").value = "Rhenium";
+  document.getElementById("atomicNum").value = "75";
+  document.getElementById("atomicWeight").value = "186.21";
+  document.getElementById("protons").value = "75";
+  document.getElementById("electrons").value = "75";
+  document.getElementById("neutrons").value = "112";
+  document.getElementById("year").value = "1925";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 13, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d5 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "7";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Walter Noddack, Ida Noddack, Otto Berg ";
+  document.getElementById("radius").value = "188 pm";
+  document.getElementById("color").value = "Silvery gray";
+  document.getElementById("density").value = "21.0 g/cm3";
+  document.getElementById("melt").value = "3459 K 3186 °C 5767 °F °F";
+  document.getElementById("boil").value = "5903 K 5630 °C 10,170  °F"; 
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5,6,7"
+  document.getElementById("cost").value = "$1600 per 100g";
+  //Rhenium Abundance:
+  document.getElementById("universe").value = "0.001";
+  document.getElementById("sun").value = "0.0005";
+  document.getElementById("meteor").value = "5";
+  document.getElementById("earth").value = "0.3";
+  document.getElementById("ocean").value = "0.000033";
+  document.getElementById("human").value = "null";
+}
+
+function osmium() {
+  document.getElementById("element").value = "Osmium";
+  document.getElementById("atomicNum").value = "76";
+  document.getElementById("atomicWeight").value = "190.2";
+  document.getElementById("protons").value = "76";
+  document.getElementById("electrons").value = "76";
+  document.getElementById("neutrons").value = "116";
+  document.getElementById("year").value = "1803";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 14, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d6 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "8";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Smithson Tennant";
+  document.getElementById("radius").value = "185 pm";
+  document.getElementById("color").value = "Bluish white";
+  document.getElementById("density").value = "22.61 g/cm3";
+  document.getElementById("melt").value = "3306 K 3033 °C 5491 °F °F";
+  document.getElementById("boil").value = "5903 K 5630 °C 10,170  °F"; 
+  document.getElementById("oxidation").value = "-4,-2,-1,0,1,2,3,4,5,6,7,8"
+  document.getElementById("cost").value = "$7700 per 100g";
+  //Osmium Abundance:
+  document.getElementById("universe").value = "0.02";
+  document.getElementById("sun").value = "0.02";
+  document.getElementById("meteor").value = "5";
+  document.getElementById("earth").value = "0.2";
+  document.getElementById("ocean").value = "Trace";
+  document.getElementById("human").value = "null";
+}
+
+function iridium() {
+  document.getElementById("element").value = "Iridium";
+  document.getElementById("atomicNum").value = "77";
+  document.getElementById("atomicWeight").value = "192.217";
+  document.getElementById("protons").value = "77";
+  document.getElementById("electrons").value = "77";
+  document.getElementById("neutrons").value = "116";
+  document.getElementById("year").value = "1803";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 15, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d7 6s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "9";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Smithson Tennant";
+  document.getElementById("radius").value = "180 pm";
+  document.getElementById("color").value = "Bluish white";
+  document.getElementById("density").value = "22.56 g/cm3";
+  document.getElementById("melt").value = "2719 K 2446 °C 4435 °F";
+  document.getElementById("boil").value = "4403 K 4130 °C 7466  °F"; 
+  document.getElementById("oxidation").value = "-3,-1,0,1,2,3,4,5,6,7,8,9"
+  document.getElementById("cost").value = "$4200 per 100g";
+  //Iridium Abundance:
+  document.getElementById("universe").value = "0.01";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "60";
+  document.getElementById("earth").value = "0.05";
+  document.getElementById("ocean").value = "Trace";
+  document.getElementById("human").value = "null";
+}
+
+function platinum() {
+  document.getElementById("element").value = "Platinum";
+  document.getElementById("atomicNum").value = "78";
+  document.getElementById("atomicWeight").value = "195.078";
+  document.getElementById("protons").value = "78";
+  document.getElementById("electrons").value = "78";
+  document.getElementById("neutrons").value = "117";
+  document.getElementById("year").value = "1735";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 17, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d9 6s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "10";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Antonio de Ulloa";
+  document.getElementById("radius").value = "177 pm";
+  document.getElementById("color").value = "Silvery white";
+  document.getElementById("density").value = "21.45 g/cm3";
+  document.getElementById("melt").value = "2041.4 K 1768.3 °C 3214.9 °F";
+  document.getElementById("boil").value = "4098 K 3825 °C 6917  °F"; 
+  document.getElementById("oxidation").value = "-3,-2,-1,0,1,2,3,4,5,6"
+  document.getElementById("cost").value = "$13000 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.03";
+  document.getElementById("sun").value = "0.06";
+  document.getElementById("meteor").value = "100";
+  document.getElementById("earth").value = "4";
+  document.getElementById("ocean").value = "Trace";
+  document.getElementById("human").value = "null";
+}
+
+function gold() {
+  document.getElementById("element").value = "Gold";
+  document.getElementById("atomicNum").value = "79";
+  document.getElementById("atomicWeight").value = "	196.9665";
+  document.getElementById("protons").value = "79";
+  document.getElementById("electrons").value = "79";
+  document.getElementById("neutrons").value = "118";
+  document.getElementById("year").value = "Ancient";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "11";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "174 pm";
+  document.getElementById("color").value = "Metallic yellow";
+  document.getElementById("density").value = "19.32 g/cm3";
+  document.getElementById("melt").value = "1337.33 K 1064.18 °C 1947.52 °F";
+  document.getElementById("boil").value = "3243 K 2970 °C 5378  °F"; 
+  document.getElementById("oxidation").value = "-3,-2,-1,0,1,2,3,5"
+  document.getElementById("cost").value = "$5500 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.004";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "0.3";
+  document.getElementById("ocean").value = "0.0016";
+  document.getElementById("human").value = "3";
+}
+
+function mercury() {
+  document.getElementById("element").value = "Mercury";
+  document.getElementById("atomicNum").value = "80";
+	document.getElementById("atomicWeight").value = "200.592";
+  document.getElementById("protons").value = "80";
+  document.getElementById("electrons").value = "80";
+  document.getElementById("neutrons").value = "122";
+  document.getElementById("year").value = "c2000 BCE";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2";
+  document.getElementById("phase").value = "liquid";
+  document.getElementById("classification").value = " Transition metal"; 
+  document.getElementById("group").value = "12";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "171 pm";
+  document.getElementById("color").value = "Silverish";
+  document.getElementById("density").value = "13.546 g/cm3";
+  document.getElementById("melt").value = "234.3210 K −38.8290 °C −37.8922 °F";
+  document.getElementById("boil").value = "	629.88 K 356.73 °C 674.11 °F"; 
+  document.getElementById("oxidation").value = "-2,1,2"
+  document.getElementById("cost").value = "$48 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.006";
+  document.getElementById("sun").value = "0.12";
+  document.getElementById("meteor").value = "20";
+  document.getElementById("earth").value = "7";
+  document.getElementById("ocean").value = "0.0015";
+  document.getElementById("human").value = "null";
+}
+
+function thallium() {
+  document.getElementById("element").value = "Thallium";
+  document.getElementById("atomicNum").value = "81";
+	document.getElementById("atomicWeight").value = "204.383";
+  document.getElementById("protons").value = "81";
+  document.getElementById("electrons").value = "81";
+  document.getElementById("neutrons").value = "124";
+  document.getElementById("year").value = "1861";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 3";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post transition metal"; 
+  document.getElementById("group").value = "13";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "William Crookes";
+  document.getElementById("radius").value = "156 pm";
+  document.getElementById("color").value = "Silver-gray";
+  document.getElementById("density").value = "11.85 g/cm3";
+  document.getElementById("melt").value = "577 K 304 °C 579 °F";
+  document.getElementById("boil").value = "1746 K 1473 °C 2683 °F"; 
+  document.getElementById("oxidation").value = "-5,-2,-1,1,2,3"
+  document.getElementById("cost").value = "$48 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.003";
+  document.getElementById("sun").value = "0.01";
+  document.getElementById("meteor").value = "6";
+  document.getElementById("earth").value = "50";
+  document.getElementById("ocean").value = "0.000030";
+  document.getElementById("human").value = "null";
+}
+
+function lead() {
+  document.getElementById("element").value = "Lead";
+  document.getElementById("atomicNum").value = "82";
+	document.getElementById("atomicWeight").value = "207.2";
+  document.getElementById("protons").value = "82";
+  document.getElementById("electrons").value = "82";
+  document.getElementById("neutrons").value = "126";
+  document.getElementById("year").value = "Ancient";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 4";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post transition metal"; 
+  document.getElementById("group").value = "14";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Unknown";
+  document.getElementById("radius").value = "154 pm";
+  document.getElementById("color").value = "Bluish-gray";
+  document.getElementById("density").value = "11.34 g/cm3";
+  document.getElementById("melt").value = "600.61 K 327.46 °C 621.43 °F";
+  document.getElementById("boil").value = "2022 K 1749 °C 3180 °F"; 
+  document.getElementById("oxidation").value = "-4,-2,-1,0,1,2,3"
+  document.getElementById("cost").value = "$2.42 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.06";
+  document.getElementById("sun").value = "0.07";
+  document.getElementById("meteor").value = "100";
+  document.getElementById("earth").value = "1000";
+  document.getElementById("ocean").value = "0.00090";
+  document.getElementById("human").value = "50";
+}
+
+function bismuth() {
+  document.getElementById("element").value = "Bismuth";
+  document.getElementById("atomicNum").value = "83";
+	document.getElementById("atomicWeight").value = "208.9804";
+  document.getElementById("protons").value = "83";
+  document.getElementById("electrons").value = "83";
+  document.getElementById("neutrons").value = "126";
+  document.getElementById("year").value = "1753";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 5";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p3";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post transition metal"; 
+  document.getElementById("group").value = "15";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Claude Geoffroy";
+  document.getElementById("radius").value = "143 pm";
+  document.getElementById("color").value = "Bluish-gray";
+  document.getElementById("density").value = "9.78 g/cm3";
+  document.getElementById("melt").value = "544.7 K 271.5 °C 520.7 °F";
+  document.getElementById("boil").value = "1837 K 1564 °C 2847 °F"; 
+  document.getElementById("oxidation").value = "-3,-2,-1,0,1,2,3,4,5"
+  document.getElementById("cost").value = "$39 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.004";
+  document.getElementById("sun").value = "0.07";
+  document.getElementById("meteor").value = "5";
+  document.getElementById("earth").value = "2";
+  document.getElementById("ocean").value = "0.00059";
+  document.getElementById("human").value = "50";
+}
+
+function polonium() {
+  document.getElementById("element").value = "Polonium";
+  document.getElementById("atomicNum").value = "84";
+	document.getElementById("atomicWeight").value = "209";
+  document.getElementById("protons").value = "84";
+  document.getElementById("electrons").value = "84";
+  document.getElementById("neutrons").value = "125";
+  document.getElementById("year").value = "1898";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 6";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p4";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Metalloid"; 
+  document.getElementById("group").value = "16";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Pierre and Marie Curie";
+  document.getElementById("radius").value = "135 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "9.4 g/cm3";
+  document.getElementById("melt").value = "527 K 254 °C 489 °F";
+  document.getElementById("boil").value = "1235 K 962 °C 1764°F"; 
+  document.getElementById("oxidation").value = "-2,2,4,5,6"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "trace";
+  document.getElementById("human").value = "null";
+}
+
+function astatine() {
+  document.getElementById("element").value = "Astatine";
+  document.getElementById("atomicNum").value = "85";
+	document.getElementById("atomicWeight").value = "210";
+  document.getElementById("protons").value = "85";
+  document.getElementById("electrons").value = "85";
+  document.getElementById("neutrons").value = "125";
+  document.getElementById("year").value = "1940";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 7";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p5";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Non metal halogen"; 
+  document.getElementById("group").value = "17";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Dale R. Corson, Kenneth Ross MacKenzie, Emilio Segrè";
+  document.getElementById("radius").value = "127 pm";
+  document.getElementById("color").value = "Presumed dark";
+  document.getElementById("density").value = "8.91-95 g/cm3";
+  document.getElementById("melt").value = "575 K 302 °C 575°F";
+  document.getElementById("boil").value = "610 K 337 °C 638°F"; 
+  document.getElementById("oxidation").value = "-1,1,3,5,7"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function radon() {
+  document.getElementById("element").value = "Radon";
+  document.getElementById("atomicNum").value = "86";
+		document.getElementById("atomicWeight").value = "222";
+  document.getElementById("protons").value = "86";
+  document.getElementById("electrons").value = "86";
+  document.getElementById("neutrons").value = "136";
+  document.getElementById("year").value = "1900";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 8";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6";
+  document.getElementById("phase").value = "Gas";
+  document.getElementById("classification").value = "Non metal noble gas"; 
+  document.getElementById("group").value = "18";
+  document.getElementById("period").value = "6";
+  document.getElementById("discoverer").value = "Fredrich E. Dorn";
+  document.getElementById("radius").value = "120 pm";
+  document.getElementById("color").value = "Colorless";
+  document.getElementById("density").value = "0.00973 g/cm3";
+  document.getElementById("melt").value = "202 K −71 °C −96 °F";
+  document.getElementById("boil").value = "211.5 K −61.7 °C −79.1 °F"; 
+  document.getElementById("oxidation").value = "0,2,6"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "trace";
+  document.getElementById("human").value = "null";
+}
+
+function francium() {
+  document.getElementById("element").value = "Francium";
+  document.getElementById("atomicNum").value = "87";
+		document.getElementById("atomicWeight").value = "223";
+  document.getElementById("protons").value = "87";
+  document.getElementById("electrons").value = "87";
+  document.getElementById("neutrons").value = "136";
+  document.getElementById("year").value = "1939";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 8, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 7s1";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Alkali metal"; 
+  document.getElementById("group").value = "1";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Marguerite Perey";
+  document.getElementById("radius").value = "260 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "1.873 g/cm3";
+  document.getElementById("melt").value = "300 K 27 °C 81 °F ";
+  document.getElementById("boil").value = "950 K 677 °C 1251 °F"; 
+  document.getElementById("oxidation").value = "1"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function radium() {
+  document.getElementById("element").value = "Radium";
+  document.getElementById("atomicNum").value = "88";
+		document.getElementById("atomicWeight").value = "226";
+  document.getElementById("protons").value = "88";
+  document.getElementById("electrons").value = "88";
+  document.getElementById("neutrons").value = "138";
+  document.getElementById("year").value = "1898";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6  7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Alkaline earth metal"; 
+  document.getElementById("group").value = "2";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Pierre and Marie Curie";
+  document.getElementById("radius").value = "221 pm";
+  document.getElementById("color").value = "Silvery white metallic";
+  document.getElementById("density").value = "5.5 g/cm3";
+  document.getElementById("melt").value = "	973 K 700 °C 1292 °F";
+  document.getElementById("boil").value = "950 K 677 °C 1251 °F"; 
+  document.getElementById("oxidation").value = "2"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "0.00001";
+  document.getElementById("ocean").value = "trace";
+  document.getElementById("human").value = "trace";
+}
+
+function actinium() {
+  document.getElementById("element").value = "Actinium";
+  document.getElementById("atomicNum").value = "89";
+	document.getElementById("atomicWeight").value = "227";
+  document.getElementById("protons").value = "89";
+  document.getElementById("electrons").value = "89";
+  document.getElementById("neutrons").value = "138";
+  document.getElementById("year").value = "1899";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 6d1 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Andre Debierne";
+  document.getElementById("radius").value = "195 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "10.07 g/cm3";
+  document.getElementById("melt").value = "1500 K 1227 °C 2240 °F";
+  document.getElementById("boil").value = "3500 K 3200 °C 5800 °F"; 
+  document.getElementById("oxidation").value = "2,3"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function thorinium() {
+  document.getElementById("element").value = "Thorium";
+  document.getElementById("atomicNum").value = "90";
+	document.getElementById("atomicWeight").value = "227";
+  document.getElementById("protons").value = "90";
+  document.getElementById("electrons").value = "90";
+  document.getElementById("neutrons").value = "142";
+  document.getElementById("year").value = "1828";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 18, 10, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 6d2 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Jöns Jacob Berzelius";
+  document.getElementById("radius").value = "180 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "11.7 g/cm3";
+  document.getElementById("melt").value = "2023 K 1750 °C 3182 °F";
+  document.getElementById("boil").value = "5061 K 4788 °C 8650 °F"; 
+  document.getElementById("oxidation").value = "-1,1,2,3,4"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.002";
+  document.getElementById("sun").value = "0.002";
+  document.getElementById("meteor").value = "3";
+  document.getElementById("earth").value = "540";
+  document.getElementById("ocean").value = "0.0000011";
+  document.getElementById("human").value = "null";
+}
+
+
+function protactinium() {
+  document.getElementById("element").value = "Protactinium";
+  document.getElementById("atomicNum").value = "91";
+	document.getElementById("atomicWeight").value = "231.03588";
+  document.getElementById("protons").value = "91";
+  document.getElementById("electrons").value = "91";
+  document.getElementById("neutrons").value = "140";
+  document.getElementById("year").value = "1913";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 20, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f2 6d1 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Oswald Göhring";
+  document.getElementById("radius").value = "180 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "15.4 g/cm3";
+  document.getElementById("melt").value = "1841 K 1568 °C 2854 °F";
+  document.getElementById("boil").value = "4300 K 4027 °C  7280 °F"; 
+  document.getElementById("oxidation").value = "2,3,4,5"
+  document.getElementById("cost").value = "$280 per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "0.0000009";
+  document.getElementById("ocean").value = "trace";
+  document.getElementById("human").value = "null";
+}
+
+function uranium() {
+  document.getElementById("element").value = "Uranium";
+  document.getElementById("atomicNum").value = "92";
+	document.getElementById("atomicWeight").value = "238.0289";
+  document.getElementById("protons").value = "92";
+  document.getElementById("electrons").value = "92";
+  document.getElementById("neutrons").value = "146";
+  document.getElementById("year").value = "1789";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 21, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f3 6d1 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Martin Heinrich Klaproth ";
+  document.getElementById("radius").value = "175 pm";
+  document.getElementById("color").value = "Silvery-white";
+  document.getElementById("density").value = "19.1 g/cm3";
+  document.getElementById("melt").value = "1405.3 K 1132.2 °C 2070 °F";
+  document.getElementById("boil").value = "4404 K 4131 °C 7468 °F"; 
+  document.getElementById("oxidation").value = "-1,1,2,3,4,5,6"
+  document.getElementById("cost").value = "$ per 100g";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "0.001";
+  document.getElementById("sun").value = "0.004";
+  document.getElementById("meteor").value = "1";
+  document.getElementById("earth").value = "150";
+  document.getElementById("ocean").value = "0.086";
+  document.getElementById("human").value = "0.03";
+}
+
+function neptunium() {
+  document.getElementById("element").value = "Neptunium";
+  document.getElementById("atomicNum").value = "93";
+  	document.getElementById("atomicWeight").value = "237";
+  document.getElementById("protons").value = "93";
+  document.getElementById("electrons").value = "93";
+  document.getElementById("neutrons").value = "144";
+  document.getElementById("year").value = "1940";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 23, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f4 6d1 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Edwin McMillan and Philip H. Abelson  ";
+  document.getElementById("radius").value = "175 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "20.45 g/cm3";
+  document.getElementById("melt").value = "912 K 639 °C 1182 °F";
+  document.getElementById("boil").value = "4447 K 4174 °C 7545 °F"; 
+  document.getElementById("oxidation").value = "2,3,4,5,6,7"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "trace";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function plutonium() {
+  document.getElementById("element").value = "Plutonium";
+  document.getElementById("atomicNum").value = "94";
+  document.getElementById("atomicWeight").value = "244";
+  document.getElementById("protons").value = "94";
+  document.getElementById("electrons").value = "94";
+  document.getElementById("neutrons").value = "150";
+  document.getElementById("year").value = "1940-41";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 24, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f6 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Glenn T. Seaborg, Arthur Wahl, Joseph W. Kennedy, Edwin McMillan  ";
+  document.getElementById("radius").value = "175 pm";
+  document.getElementById("color").value = "Silvery-white";
+  document.getElementById("density").value = "19.8 g/cm3";
+  document.getElementById("melt").value = "912.5 K 639.4 °C 1182.9 °F";
+  document.getElementById("boil").value = "	3505 K 3228 °C 5842 °F"; 
+  document.getElementById("oxidation").value = "2,3,4,5,6,7,8"
+  document.getElementById("cost").value = "$4000 per gram";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "trace";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function americium() {
+  document.getElementById("element").value = "Americium";
+  document.getElementById("atomicNum").value = "95";
+  document.getElementById("atomicWeight").value = "243";
+  document.getElementById("protons").value = "95";
+  document.getElementById("electrons").value = "95";
+  document.getElementById("neutrons").value = "148";
+  document.getElementById("year").value = "1944";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 25, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f7 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Glenn T. Seaborg, Ralph A. James, Leon O. Morgan, Albert Ghiorso ";
+  document.getElementById("radius").value = "175 pm";
+  document.getElementById("color").value = "Silvery-white";
+  document.getElementById("density").value = "13.67 g/cm3";
+  document.getElementById("melt").value = "1449 K 1176 °C 2149 °F";
+  document.getElementById("boil").value = "2880 K 2607 °C 4725 °F"; 
+  document.getElementById("oxidation").value = "2,3,4,5,6,7"
+  document.getElementById("cost").value = "$1500 per gram";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "trace";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function curium() {
+  document.getElementById("element").value = "Curium";
+  document.getElementById("atomicNum").value = "96";
+  document.getElementById("atomicWeight").value = "247";
+  document.getElementById("protons").value = "96";
+  document.getElementById("electrons").value = "96";
+  document.getElementById("neutrons").value = "151";
+  document.getElementById("year").value = "1944";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 25, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f7 6d1 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Glenn T. Seaborg, Ralph A. James, Albert Ghiorso ";
+  document.getElementById("radius").value = "176 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "13.51 g/cm3";
+  document.getElementById("melt").value = "1613 K 1340 °C 2444 °F";
+  document.getElementById("boil").value = "3383 K 3110 °C 5630 °F"; 
+  document.getElementById("oxidation").value = "3,4,5,6"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function berkelium() {
+  document.getElementById("element").value = "Berkelium";
+  document.getElementById("atomicNum").value = "97";
+  document.getElementById("atomicWeight").value = "247";
+  document.getElementById("protons").value = "97";
+  document.getElementById("electrons").value = "97";
+  document.getElementById("neutrons").value = "150";
+  document.getElementById("year").value = "1949";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 27, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f9 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Glenn T. Seaborg, Stanley Thompson, Albert Ghiorso ";
+  document.getElementById("radius").value = "170 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "14.79 g/cm3";
+  document.getElementById("melt").value = "1259 K 986 °C  1807 °F";
+  document.getElementById("boil").value = "2900 K 2627 °C 4760 °F"; 
+  document.getElementById("oxidation").value = "2,3,4,5"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function californium() {
+  document.getElementById("element").value = "Californium";
+  document.getElementById("atomicNum").value = "98";
+  document.getElementById("atomicWeight").value = "251";
+  document.getElementById("protons").value = "98";
+  document.getElementById("electrons").value = "98";
+  document.getElementById("neutrons").value = "153";
+  document.getElementById("year").value = "1950";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 28, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f10 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Glenn T. Seaborg, Stanley Thompson, Albert Ghiorso, Kenneth Street ";
+  document.getElementById("radius").value = "186 pm";
+  document.getElementById("color").value = "Silvery";
+  document.getElementById("density").value = "13.67 g/cm3";
+  document.getElementById("melt").value = "1173 K 900 °C 1652 °F";
+  document.getElementById("boil").value = "1743 K 1470 °C 2678 °F"; 
+  document.getElementById("oxidation").value = "2,3,4,5"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function einstienium() {
+  document.getElementById("element").value = "Einstienium";
+  document.getElementById("atomicNum").value = "99";
+    document.getElementById("atomicWeight").value = "252";
+  document.getElementById("protons").value = "99";
+  document.getElementById("electrons").value = "99";
+  document.getElementById("neutrons").value = "153";
+  document.getElementById("year").value = "1952";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 29, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f11 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Albert Ghiorso";
+  document.getElementById("radius").value = "186 pm";
+  document.getElementById("color").value = "Silverish";
+  document.getElementById("density").value = "8.84 g/cm3";
+  document.getElementById("melt").value = "1133 K 860 °C 1580 °F";
+  document.getElementById("boil").value = "1269 K 996 °C 1825 °F"; 
+  document.getElementById("oxidation").value = "2,3,4"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function fermium() {
+  document.getElementById("element").value = "Fermium";
+  document.getElementById("atomicNum").value = "100";
+  document.getElementById("atomicWeight").value = "257";
+  document.getElementById("protons").value = "100";
+  document.getElementById("electrons").value = "100";
+  document.getElementById("neutrons").value = "157";
+  document.getElementById("year").value = "1952";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 30, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f12 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Project led by Albert Ghiorso";
+  document.getElementById("radius").value = "186 pm";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "9.7 g/cm3";
+  document.getElementById("melt").value = "1800 K 1527 °C 2781 °F";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "2,3"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function mendelevium() {
+  document.getElementById("element").value = "Mendelevium";
+  document.getElementById("atomicNum").value = "101";
+  document.getElementById("atomicWeight").value = "258";
+  document.getElementById("protons").value = "101";
+  document.getElementById("electrons").value = "101";
+  document.getElementById("neutrons").value = "157";
+  document.getElementById("year").value = "1955";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 31, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f13 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Lawrence Berkeley National Laboratory";
+  document.getElementById("radius").value = "No data";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "10.3 g/cm3?";
+  document.getElementById("melt").value = "1100 K 827 °C 1521 °F";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "2,3"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function nobelium() {
+  document.getElementById("element").value = "Nobelium";
+  document.getElementById("atomicNum").value = "102";
+  document.getElementById("atomicWeight").value = "259";
+  document.getElementById("protons").value = "102";
+  document.getElementById("electrons").value = "102";
+  document.getElementById("neutrons").value = "157";
+  document.getElementById("year").value = "1966";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 8, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f14 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "N/A";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Joint Institute for Nuclear Research";
+  document.getElementById("radius").value = "No data";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "9.9 g/cm3?";
+  document.getElementById("melt").value = "	1100 K 827 °C 1521 °F";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "2,3"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function lawrencium() {
+  document.getElementById("element").value = "Lawrencium";
+  document.getElementById("atomicNum").value = "103";
+   document.getElementById("atomicWeight").value = "262";
+  document.getElementById("protons").value = "103";
+  document.getElementById("electrons").value = "103";
+  document.getElementById("neutrons").value = "159";
+  document.getElementById("year").value = "1961";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 9, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d1 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "3";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Lawrence Berkeley National Laboratory";
+  document.getElementById("radius").value = "No data";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "14.4 g/cm3?";
+  document.getElementById("melt").value = "1900 K 1627 °C 2961 °F";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "3"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+
+
+function rutherfordium() {
+  document.getElementById("element").value = "Rutherfordium";
+  document.getElementById("atomicNum").value = "104";
+   document.getElementById("atomicWeight").value = "267";
+  document.getElementById("protons").value = "104";
+  document.getElementById("electrons").value = "104";
+  document.getElementById("neutrons").value = "163";
+  document.getElementById("year").value = "1969";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 10, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d2 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "4";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Joint Institute for Nuclear Research and Lawrence Berkeley National Laboratory";
+  document.getElementById("radius").value = "157 pm";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "14.4 g/cm3?";
+  document.getElementById("melt").value = "2400 K 2100 °C 3800 °F";
+  document.getElementById("boil").value = "5800 K 5500 °C 9900 °F"; 
+  document.getElementById("oxidation").value = "2,3,4"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function dubnium() {
+  document.getElementById("element").value = "Dubnium";
+  document.getElementById("atomicNum").value = "105";
+  document.getElementById("atomicWeight").value = "268";
+  document.getElementById("protons").value = "105";
+  document.getElementById("electrons").value = "105";
+  document.getElementById("neutrons").value = "163";
+  document.getElementById("year").value = "1970";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 11, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d3 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "5";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Joint Institute for Nuclear Research and Lawrence Berkeley National Laboratory";
+  document.getElementById("radius").value = "149 pm";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "21.6 g/cm3?";
+  document.getElementById("melt").value = "No data";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "3,4,5"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function seaborgium() {
+  document.getElementById("element").value = "Seaborgium";
+  document.getElementById("atomicNum").value = "106";
+  document.getElementById("atomicWeight").value = "271";
+  document.getElementById("protons").value = "106";
+  document.getElementById("electrons").value = "106";
+  document.getElementById("neutrons").value = "165";
+  document.getElementById("year").value = "1974";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 12, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d4 7s2";
+  document.getElementById("phase").value = "Solid";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "6";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Lawrence Berkeley National Laboratory";
+  document.getElementById("radius").value = "143 pm";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "23- 24 g/cm3?";
+  document.getElementById("melt").value = "No data";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "0,3,4,5,6"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function bohrium() {
+  document.getElementById("element").value = "Bohrium";
+  document.getElementById("atomicNum").value = "107";
+   document.getElementById("atomicWeight").value = "270";
+  document.getElementById("protons").value = "107";
+  document.getElementById("electrons").value = "107";
+  document.getElementById("neutrons").value = "163";
+  document.getElementById("year").value = "1981";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 13, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d6 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d5 7s2";
+  document.getElementById("phase").value = "No data";
+  document.getElementById("classification").value = "Actinide metal"; 
+  document.getElementById("group").value = "7";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Lawrence Berkeley National Laboratory";
+  document.getElementById("radius").value = "141 pm";
+  document.getElementById("color").value = "Silverish?";
+  document.getElementById("density").value = "26- 27 g/cm3?";
+  document.getElementById("melt").value = "No data";
+  document.getElementById("boil").value = "No data"; 
+  document.getElementById("oxidation").value = "3,4,5,7"
+  document.getElementById("cost").value = "Unknown";
+  //Platinum Abundance:
+  document.getElementById("universe").value = "null";
+  document.getElementById("sun").value = "null";
+  document.getElementById("meteor").value = "null";
+  document.getElementById("earth").value = "null";
+  document.getElementById("ocean").value = "null";
+  document.getElementById("human").value = "null";
+}
+
+function hassium() {
+  document.getElementById("element").value = "Hassium";
+  document.getElementById("atomicNum").value = "108";
+   document.getElementById("atomicWeight").value = "269";
+  document.getElementById("protons").value = "108";
+  document.getElementById("electrons").value = "108";
+  document.getElementById("neutrons").value = "161";
+  document.getElementById("year").value = "1984";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 14, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d6 7s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "8";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Heavy Ion Research Laboratory";
+  document.getElementById("radius").value = "134 pm , estimated";
+  document.getElementById("color").value = "Silvery?";
+  document.getElementById("density").value = "27-29 g/cm3";
+  document.getElementById("melt").value = "	TBD";
+  document.getElementById("boil").value = " TBD";
+  document.getElementById("oxidation").value = "2, 3, 4, 6, 8";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function meitnerium() {
+  document.getElementById("element").value = "Meitnerium";
+  document.getElementById("atomicNum").value = "109";
+    document.getElementById("atomicWeight").value = "278";
+  document.getElementById("protons").value = "109";
+  document.getElementById("electrons").value = "109";
+  document.getElementById("neutrons").value = "169";
+  document.getElementById("year").value = "1982";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 15, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d7 7s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "9";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Heavy Ion Research Laboratory";
+  document.getElementById("radius").value = "129 pm , predicted";
+  document.getElementById("color").value = "Silvery?";
+  document.getElementById("density").value = "27-28 g/cm3";
+  document.getElementById("melt").value = "	TBD";
+  document.getElementById("boil").value = " TBD";
+  document.getElementById("oxidation").value = "1, 3, 4, 6, 8, 9";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function darmstadium() {
+  document.getElementById("element").value = "Darmstadium";
+  document.getElementById("atomicNum").value = "110";
+  document.getElementById("atomicWeight").value = "281";
+  document.getElementById("protons").value = "110";
+  document.getElementById("electrons").value = "110";
+  document.getElementById("neutrons").value = "171";
+  document.getElementById("year").value = "1994";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 17, 1";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d8 7s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "10";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Heavy Ion Research Laboratory";
+  document.getElementById("radius").value = "132 pm , predicted";
+  document.getElementById("color").value = "Silvery?";
+  document.getElementById("density").value = "26-27 g/cm3";
+  document.getElementById("melt").value = "	TBD";
+  document.getElementById("boil").value = " TBD";
+  document.getElementById("oxidation").value = "0, 2, 4, 6, 8";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function roentgenium() {
+  document.getElementById("element").value = "Roentgenium";
+  document.getElementById("atomicNum").value = "111";
+  document.getElementById("atomicWeight").value = "281";
+  document.getElementById("protons").value = "111";
+  document.getElementById("electrons").value = "111";
+  document.getElementById("neutrons").value = "170";
+  document.getElementById("year").value = "1994";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 17, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d9 7s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "11";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Heavy Ion Research Laboratory";
+  document.getElementById("radius").value = "138 pm , predicted";
+  document.getElementById("color").value = "Silvery?";
+  document.getElementById("density").value = "22- 24 g/cm3";
+  document.getElementById("melt").value = "	TBD";
+  document.getElementById("boil").value = " TBD";
+  document.getElementById("oxidation").value = "-1, 1, 3, 5, 7";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+  
+}
+
+function copernicium() {
+  document.getElementById("element").value = "Copernicium";
+  document.getElementById("atomicNum").value = "112";
+	document.getElementById("atomicWeight").value = "285";
+  document.getElementById("protons").value = "112";
+  document.getElementById("electrons").value = "112";
+  document.getElementById("neutrons").value = "173";
+  document.getElementById("year").value = "1996";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 2";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Transition metal";
+  document.getElementById("group").value = "12";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Research scientists led by Sigurd Hofmann";
+  document.getElementById("radius").value = "147 pm , predicted";
+  document.getElementById("color").value = "metallic?";
+  document.getElementById("density").value = "14.0 g/cm3";
+  document.getElementById("melt").value = "	283 ± 11 K 10 ± 11 °C 50 ± 20°F";
+  document.getElementById("boil").value = "340 ± 10 K 67 ± 10 °C 153 ± 18 °F";
+  document.getElementById("oxidation").value = "0, 1, 2, 4, 6";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function nihonium() {
+  document.getElementById("element").value = "Nihonium";
+  document.getElementById("atomicNum").value = "113";
+		document.getElementById("atomicWeight").value = "286";
+  document.getElementById("protons").value = "113";
+  document.getElementById("electrons").value = "113";
+  document.getElementById("neutrons").value = "173";
+  document.getElementById("year").value = "2012";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 3";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p1";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post transition metal";
+  document.getElementById("group").value = "13";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Kosuke Morita’s RIKEN";
+  document.getElementById("radius").value = "170 pm , predicted";
+  document.getElementById("color").value = "metallic?";
+  document.getElementById("density").value = "16 g/cm3";
+  document.getElementById("melt").value = "700 K 430 °C 810°F";
+  document.getElementById("boil").value = "1430 K 1130 °C 2070 °F";
+  document.getElementById("oxidation").value = "-1, 1, 3, 5";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function flerovium() {
+  document.getElementById("element").value = "Flerovium";
+  document.getElementById("atomicNum").value = "114";
+		document.getElementById("atomicWeight").value = "289";
+  document.getElementById("protons").value = "114";
+  document.getElementById("electrons").value = "114";
+  document.getElementById("neutrons").value = "175";
+  document.getElementById("year").value = "1998";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 4";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p2";
+  document.getElementById("phase").value = "liquid";
+  document.getElementById("classification").value = "Post transition metal";
+  document.getElementById("group").value = "14";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Joint Institute for Nuclear Research (JINR) and Lawrence Livermore National Laboratory";
+  document.getElementById("radius").value = "180 pm , predicted";
+  document.getElementById("color").value = "metallic?";
+  document.getElementById("density").value = "11.4 g/cm3";
+  document.getElementById("melt").value = "284 K 11 °C, 52±90°F";
+  document.getElementById("boil").value = "No data";
+  document.getElementById("oxidation").value = "0, 1, 2, 4, 6";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function moscovium() {
+  document.getElementById("element").value = "Moscovium";
+  document.getElementById("atomicNum").value = "115";
+	document.getElementById("atomicWeight").value = "292";
+  document.getElementById("protons").value = "115";
+  document.getElementById("electrons").value = "115";
+  document.getElementById("neutrons").value = "174";
+  document.getElementById("year").value = "2003";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 5";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p3";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Post transition metal";
+  document.getElementById("group").value = "15";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Yuri Oganessian and Ken Moody";
+  document.getElementById("radius").value = "187 pm , predicted";
+  document.getElementById("color").value = "metallic?";
+  document.getElementById("density").value = "13.5 g/cm3";
+  document.getElementById("melt").value = "	670 K 400 °C  750°F";
+  document.getElementById("boil").value = "1400 K ~1100 °C ~2000 °F";
+  document.getElementById("oxidation").value = "1, 3";
+  document.getElementById("cost").value = "Unknown";
+  //Moscovium Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+
+function livermorium() {
+  document.getElementById("element").value = "Livermorium";
+  document.getElementById("atomicNum").value = "116";
+      document.getElementById("atomicWeight").value = "292";
+  document.getElementById("protons").value = "116";
+  document.getElementById("electrons").value = "116";
+  document.getElementById("neutrons").value = "177";
+  document.getElementById("year").value = "2000";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 6";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p4";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Unknown";
+  document.getElementById("group").value = "16";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Yuri Oganessian and Ken Moody";
+  document.getElementById("radius").value = "166 pm , predicted";
+  document.getElementById("color").value = "metallic?";
+  document.getElementById("density").value = "12.9 g/cm3";
+  document.getElementById("melt").value = "637–780 K 364–507 °C 687–944°F";
+  document.getElementById("boil").value = "1035–1135 K 762–862 °C 1403–1583 °F";
+  document.getElementById("oxidation").value = "-2, 2, 4";
+  document.getElementById("cost").value = "Unknown";
+  //Tennessine Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function tennessine() {
+  document.getElementById("element").value = "Tennessine";
+  document.getElementById("atomicNum").value = "117";
+    document.getElementById("atomicWeight").value = "294";
+  document.getElementById("protons").value = "117";
+  document.getElementById("electrons").value = "117";
+  document.getElementById("neutrons").value = "117";
+  document.getElementById("year").value = "2009";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 7";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p5";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Halogen?";
+  document.getElementById("group").value = "17";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Flerov Laboratory";
+  document.getElementById("radius").value = "138 pm , predicted";
+  document.getElementById("color").value = "semi-metallic?";
+  document.getElementById("density").value = "7.1-7.3 g/cm3";
+  document.getElementById("melt").value = "623–823 K 350–550 °C 662–1022°F";
+  document.getElementById("boil").value = "883 K, 610 °C, 1130 °F";
+  document.getElementById("oxidation").value = "-1, 1, 3, 5";
+  document.getElementById("cost").value = "$ per 100g";
+  //Tennessine Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+function oganesson() {
+  document.getElementById("element").value = "Oganesson";
+  document.getElementById("atomicNum").value = "118";
+  document.getElementById("atomicWeight").value = "294";
+  document.getElementById("protons").value = "118";
+  document.getElementById("electrons").value = "118";
+  document.getElementById("neutrons").value = "176";
+  document.getElementById("year").value = "2006";
+  document.getElementById("electronsPerShell").value = "2, 8, 18, 32, 32, 18, 8";
+  document.getElementById("electronConfig").value = "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p6";
+  document.getElementById("phase").value = "solid";
+  document.getElementById("classification").value = "Noble gas?";
+  document.getElementById("group").value = "18";
+  document.getElementById("period").value = "7";
+  document.getElementById("discoverer").value = "Yuri Tsolakovich Oganessian";
+  document.getElementById("radius").value = "243 pm";
+  document.getElementById("color").value = "metallic";
+  document.getElementById("density").value = "7.2 g/cm3";
+  document.getElementById("melt").value = "325 K ​(52 °C, ​125°F";
+  document.getElementById("boil").value = "450 K ​(177 °C, ​350 °F";
+  document.getElementById("oxidation").value = "-1, 0, 1, 2, 4, 6";
+  document.getElementById("cost").value = "$ per 100g";
+  //Oranesson Abundance:
+  document.getElementById("universe").value = "Unknown";
+  document.getElementById("sun").value = "Unknown";
+  document.getElementById("meteor").value = "Unknown";
+  document.getElementById("earth").value = "Unknown";
+  document.getElementById("ocean").value = "Unknown";
+  document.getElementById("human").value = "Unknown";
+}
+
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+
+  // JavaScript Document
+
+
+
+
+  // JavaScript Document
